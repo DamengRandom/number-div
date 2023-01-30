@@ -372,33 +372,69 @@ function allYaos(gua) {
 function answer(guaYao) {
   switch (guaYao) {
     case "乾初九":
-      return "潜藏的龙 无法施展";
+      return "潜藏的龙在深渊 暂时无法施展";
     case "乾九二":
-      return "龙正在走出低谷 运用德行寻求机会";
+      return "龙正在走出低谷 运用德行寻求机会（有利于大才大德的是出世）";
     case "乾九三":
-      return "龙虽处境艰难 但坚持不懈 不断努力";
+      return "龙虽处境艰难 但坚持不懈 不断努力 即使遇到危险 也可避祸";
     case "乾九四":
-      return "龙跳进深渊 没有灾难";
+      return "龙跳进深渊 伺机而动 没有灾难 时而上跃 时而潜退";
     case "乾九五":
       return "龙在天空中飞 大有所为";
     case "乾上九":
-      return "升腾到极限的龙会有灾祸之困";
+      return "升腾到极限的龙 会有灾祸之困";
     case "坤初六":
-      return "阴冷天气逐渐形成 要遵循规律向前推进";
+      return "阴冷天气逐渐形成 要遵循规律向前推进 寒冬将至";
     case "坤六二":
-      return "向前 前方大道宽广";
+      return "具有一定美德 行事都是有利的"; // @TODO
     case "坤六三":
-      return "没有战绩而有好的结果";
+      return "具备美好品德 可以坚守正道 事情起初无所发展 但最后有好的结果";
     case "坤六四":
       return "谨言慎行 就会避免灾祸";
     case "坤六五":
-      return "黄色的裙裳 大吉大利";
+      return "穿着黄色的裙裳 大吉大利";
     case "坤上六":
-      return "人走到了群困的绝境";
+      return "人走到了群困的绝境 有灾祸"; // @TODO
     case "屯初九":
-      return "虽然徘徊难进 但志行贞正 得人心";
+      return "虽然徘徊难进 但志行贞正 可坚持以退为进的策略";
     case "屯六二":
-      return "女性十年才能孕育 前进艰难 现象反常";
+      return "首次出行 徘徊难进 女性十年才能孕育 前进艰难 现象较为反常";
+    case "屯六三":
+      return "放弃前行 若一意孤行 会有灾祸";
+    case "屯六四":
+      return "乘马的人纷纷而来 有婚配的欲求 会心想事成";
+    case "屯九五":
+      return "囤积资源 少囤积有利 过度囤积会有灾祸";
+    case "屯上六":
+      return "乘马的人纷纷而来 悲伤悲痛的情况发生";
+    case "蒙初六":
+      return "愚昧的初期 有利于用刑法惩治坏人 并且给冤屈者脱去枷锁 如果不专心学习去做事 将会带来困境"; // @TODO
+    case "蒙九二":
+      return "包容愚昧 和 娶妻 吉祥 儿子可以持家了";
+    case "蒙六三":
+      return "不适合娶这个女人为妻 因为此女子会遇男色而失身 这种行为不好导致不适合结婚 结果也不会好";
+    case "蒙六四":
+      return "被蒙昧无知的人所困惑 最终会有灾难";
+    case "蒙六五":
+      return "愚昧无知的人接受启发 吉兆";
+    case "蒙上九":
+      return "惊醒愚昧无知的人 不宜行为过当 不利于做贼寇 有利于防御贼寇"; // @TODO
+    case "需初九":
+      return "在郊野中等待 适宜持之以恒 可避免灾祸";
+    case "需九二":
+      return "身处沙地 虽然早到校人的责难 但最终是吉利的";
+    case "需九三":
+      return "在泥泞中行走 招致贼寇前来";
+    case "需六四":
+      return "身处血泊中 需要尽快逃离险境";
+    case "需九五":
+      return "在享用酒食中等待 正固吉祥";
+    case "需上六":
+      return "进入洞穴 虽然会看到不速之客 但尊敬他们 最后获得吉祥";
+    case "讼初六":
+      return "不要长期困于官司 减少口舌是非 最终获得吉祥";
+    case "讼九二":
+      return "官司失利后 应回家躲避 逃到小国 息事宁人";
   }
 }
 
@@ -417,7 +453,7 @@ function request(data) {
 
 export default function Home() {
   const { register, handleSubmit } = useForm();
-  // Concept: enter 3 3 digits numbers, make api call, get result
+  // Concept: enter 3 3-digits numbers, make api call, get result
 
   return (
     <>
