@@ -18,7 +18,9 @@ yarn dev
 
 3). https://www.zhouyi.cc/zhouyi/yijing64/
 
-4).
+4). https://m.guoxuez.com/64gua/yigua/26784.html
+
+5).
 
 <!-- ### Ideas
 1). add 384 yao ci into object
