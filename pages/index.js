@@ -23,8 +23,6 @@ function request(data, setOutput) {
   const finalResult = answer(`${gua}${yao}`);
 
   setOutput(finalResult);
-
-  console.log(finalResult);
 }
 
 export default function Home() {
