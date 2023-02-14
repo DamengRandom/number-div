@@ -6,7 +6,8 @@ import {
   convertToYao,
   allGuas,
   allYaos,
-  answer,
+  // answer,
+  answers,
 } from "../utils/helpers";
 
 function request(data, setOutput) {
@@ -20,13 +21,14 @@ function request(data, setOutput) {
   const yao = allYaos(gua)[yaoCi];
 
   // release final result answer
-  const finalResult = answer(`${gua}${yao}`);
+  // const finalResult = answer(`${gua}${yao}`); // single result
+  const finalResult = answers(`${gua}${yao}`); // multiple results
 
   setOutput(finalResult);
 }
 
 export default function Home() {
-  const [output, setOutput] = useState("");
+  const [output, setOutput] = useState({});
   const { register, handleSubmit } = useForm();
   // Concept: enter 3 3-digits numbers, make calculation, get result
 
@@ -66,7 +68,35 @@ export default function Home() {
 
           <input type="submit" name="kan" />
         </form>
-        {output && <p>The answer is: {output}</p>}
+        {Object.keys(output)?.length > 0 && (
+          <div>
+            <p>The answer is: {output.meaning}</p>
+            {!!output?.videoUrls?.length &&
+              output?.videoUrls.map((url, index) => (
+                <iframe
+                  key={`video-url-${index + 1}`}
+                  width="319.5"
+                  height="180"
+                  src={url}
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                ></iframe>
+              ))}
+            {!!output?.references?.length && (
+              <ul>
+                {output?.references?.map((references, index) => (
+                  <li key={`reference-link-${index + 1}`}>
+                    <a href={references} target="_blank" rel="noreferrer">
+                      Reference {index + 1}
+                    </a>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </div>
+        )}
       </main>
 
       <footer>Developed by Damengrandom</footer>
