@@ -1143,403 +1143,649 @@ export function answers(guaYao) {
   switch (guaYao) {
     case "乾初九":
       return {
+        origin: "潜龙勿用.",
         meaning: "潜藏的龙在深渊 暂时无法施展",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
         ],
-        references: ["https://www.guoyi360.com/64gua01/xj/169.html"],
+        references: [
+          "http://ly.yishihui.net/12820.htm",
+          "https://www.guoyi360.com/64gua01/xj/169.html",
+        ],
       };
     case "乾九二":
       return {
+        origin: "见龙在田, 利见大人.",
         meaning: "龙正在走出低谷 运用德行寻求机会 有利于大才大德的是出世",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
         ],
-        references: ["https://www.guoyi360.com/64gua01/xj/170.html"],
+        references: [
+          "http://ly.yishihui.net/12818.htm",
+          "https://www.guoyi360.com/64gua01/xj/170.html",
+        ],
       };
     case "乾九三":
       return {
+        origin: "君子终日乾乾, 夕惕若; 厉, 无咎.",
         meaning: "龙虽处境艰难 但坚持不懈 不断努力 即使遇到危险 也可避祸",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
         ],
-        references: ["https://www.guoyi360.com/64gua01/xj/496.html"],
+        references: [
+          "http://ly.yishihui.net/12816.htm",
+          "https://www.guoyi360.com/64gua01/xj/496.html",
+        ],
       };
     case "乾九四":
       return {
+        origin: "或跃在渊, 无咎.",
         meaning: "龙跳进深渊 伺机而动 没有灾难 时而上跃 时而潜退",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
         ],
-        references: ["https://www.guoyi360.com/64gua01/xj/499.html"],
+        references: [
+          "http://ly.yishihui.net/12814.htm",
+          "https://www.guoyi360.com/64gua01/xj/499.html",
+        ],
       };
     case "乾九五":
       return {
+        origin: "飞龙在天, 利见大人.",
         meaning: "龙在天空中飞 大有所为",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
         ],
-        references: ["https://www.guoyi360.com/64gua01/xj/883.html"],
+        references: [
+          "http://ly.yishihui.net/12812.htm",
+          "https://www.guoyi360.com/64gua01/xj/883.html",
+        ],
       };
     case "乾上九":
       return {
+        origin: "亢龙有悔.",
         meaning: "升腾到极限的龙 会有灾祸之困",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
         ],
-        references: ["https://www.guoyi360.com/64gua01/xj/884.html"],
+        references: [
+          "http://ly.yishihui.net/12810.htm",
+          "https://www.guoyi360.com/64gua01/xj/884.html",
+        ],
       };
     case "坤初六":
       return {
+        origin: "履霜, 坚冰至.",
         meaning: "阴冷天气逐渐形成 要遵循规律向前推进 寒冬将至",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
-        references: ["https://www.guoyi360.com/64gua02/xj/888.html"],
+        references: [
+          "http://ly.yishihui.net/12843.htm",
+          "https://www.guoyi360.com/64gua02/xj/888.html",
+        ],
       };
     case "坤六二":
       return {
+        origin: "直, 方, 大, 不习无不利.",
         meaning: "具有一定美德 行事都是有利的",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
-        references: ["https://www.guoyi360.com/64gua02/xj/889.html"],
+        references: [
+          "http://ly.yishihui.net/12841.htm",
+          "https://www.guoyi360.com/64gua02/xj/889.html",
+        ],
       }; // @TODO
     case "坤六三":
       return {
+        origin: "含章可贞. 或从王事, 无成有终.",
         meaning: "具备美好品德 可以正固 事情起初无所发展 但最后有好的结果",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
-        references: ["https://www.guoyi360.com/64gua02/xj/890.html"],
+        references: [
+          "http://ly.yishihui.net/12839.htm",
+          "https://www.guoyi360.com/64gua02/xj/890.html",
+        ],
       };
     case "坤六四":
       return {
+        origin: "括囊, 无咎, 无誉.",
         meaning: "谨言慎行 就会避免灾祸",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
-        references: ["https://www.guoyi360.com/64gua02/xj/891.html"],
+        references: [
+          "http://ly.yishihui.net/12837.htm",
+          "https://www.guoyi360.com/64gua02/xj/891.html",
+        ],
       };
     case "坤六五":
       return {
+        origin: "黄裳, 元吉.",
         meaning: "穿着黄色的裙裳 大吉大利",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
-        references: ["https://www.guoyi360.com/64gua02/xj/892.html"],
+        references: [
+          "http://ly.yishihui.net/12835.htm",
+          "https://www.guoyi360.com/64gua02/xj/892.html",
+        ],
       };
     case "坤上六":
       return {
+        origin: "龙战于野, 其血玄黄.",
         meaning: "人走到了群困的绝境 有灾祸",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
-        references: ["https://www.guoyi360.com/64gua02/xj/893.html"],
+        references: [
+          "http://ly.yishihui.net/12833.htm",
+          "https://www.guoyi360.com/64gua02/xj/893.html",
+        ],
       }; // @TODO
     case "屯初九":
       return {
+        origin: "盘桓, 利居贞, 利建侯.",
         meaning: "虽然徘徊难进 但志行贞正 可坚持以退为进的策略",
         videoUrls: ["https://www.youtube.com/embed/IOpg_Tt47NQ"],
-        references: ["https://www.guoyi360.com/64gua03/xj/930.html"],
+        references: [
+          "http://ly.yishihui.net/12855.htm",
+          "https://www.guoyi360.com/64gua03/xj/930.html",
+        ],
       };
     case "屯六二":
       return {
+        origin: "屯如邅如, 乘马班如. 匪寇婚媾, 女子贞不字, 十年乃字.",
         meaning: "首次出行 徘徊难进 女性十年才能孕育 前进艰难 现象较为反常",
         videoUrls: ["https://www.youtube.com/embed/IOpg_Tt47NQ"],
-        references: ["https://www.guoyi360.com/64gua03/xj/958.html"],
+        references: [
+          "http://ly.yishihui.net/12853.htm",
+          "https://www.guoyi360.com/64gua03/xj/958.html",
+        ],
       };
     case "屯六三":
       return {
+        origin: "即鹿无虞, 惟入于林中. 君子几不如舍. 往吝.",
         meaning: "放弃前行 若一意孤行 会有灾祸",
         videoUrls: ["https://www.youtube.com/embed/IOpg_Tt47NQ"],
-        references: ["https://www.guoyi360.com/64gua03/xj/959.html"],
+        references: [
+          "http://ly.yishihui.net/12851.htm",
+          "https://www.guoyi360.com/64gua03/xj/959.html",
+        ],
       };
     case "屯六四":
       return {
+        origin: "乘马班如, 求婚媾, 往吉, 无不利.",
         meaning: "乘马的人纷纷而来 有婚配的欲求 会心想事成",
         videoUrls: ["https://www.youtube.com/embed/IOpg_Tt47NQ"],
-        references: ["https://www.guoyi360.com/64gua03/xj/960.html"],
+        references: [
+          "http://ly.yishihui.net/12849.htm",
+          "https://www.guoyi360.com/64gua03/xj/960.html",
+        ],
       };
     case "屯九五":
       return {
+        origin: "屯其膏, 小贞吉, 大贞凶.",
         meaning: "囤积资源 少囤积有利 过度囤积会有灾祸",
         videoUrls: ["https://www.youtube.com/embed/IOpg_Tt47NQ"],
-        references: ["https://www.guoyi360.com/64gua03/xj/961.html"],
+        references: [
+          "http://ly.yishihui.net/12847.htm",
+          "https://www.guoyi360.com/64gua03/xj/961.html",
+        ],
       };
     case "屯上六":
       return {
+        origin: "乘马班如, 泣血涟如.",
         meaning: "乘马的人纷纷而来 悲伤悲痛的情况发生",
         videoUrls: ["https://www.youtube.com/embed/IOpg_Tt47NQ"],
-        references: ["https://www.guoyi360.com/64gua03/xj/962.html"],
+        references: [
+          "http://ly.yishihui.net/12845.htm",
+          "https://www.guoyi360.com/64gua03/xj/962.html",
+        ],
       };
     case "蒙初六":
       return {
+        origin: "发蒙, 利用刑人, 用说桎梏. 以往, 吝.",
         meaning:
           "愚昧的初期 有利于用刑法惩治坏人 并且给冤屈者脱去枷锁 如果不专心学习去做事 将会带来困境",
         videoUrls: ["https://www.youtube.com/embed/5Z-fmmk9V5c"],
-        references: ["https://www.guoyi360.com/64gua04/xj/965.html"],
+        references: [
+          "http://ly.yishihui.net/12867.htm",
+          "https://www.guoyi360.com/64gua04/xj/965.html",
+        ],
       }; // @TODO
     case "蒙九二":
       return {
+        origin: "包蒙吉. 纳妇吉. 子克家.",
         meaning: "包容愚昧 和 娶妻 吉祥 儿子可以持家了",
         videoUrls: ["https://www.youtube.com/embed/5Z-fmmk9V5c"],
-        references: [],
+        references: ["http://ly.yishihui.net/12865.htm"],
       };
     case "蒙六三":
       return {
+        origin: "勿用娶女, 见金夫, 不有躬. 无攸利.",
         meaning:
           "不适合娶这个女人为妻 因为此女子会遇男色而失身 这种行为不好导致不适合结婚 结果也不会好",
         videoUrls: ["https://www.youtube.com/embed/5Z-fmmk9V5c"],
-        references: ["https://www.guoyi360.com/64gua04/xj/967.html"],
+        references: [
+          "http://ly.yishihui.net/12863.htm",
+          "https://www.guoyi360.com/64gua04/xj/967.html",
+        ],
       };
     case "蒙六四":
       return {
+        origin: "困蒙, 吝.",
         meaning: "被蒙昧无知的人所困惑 最终会有灾难",
         videoUrls: ["https://www.youtube.com/embed/5Z-fmmk9V5c"],
-        references: ["https://www.guoyi360.com/64gua04/xj/968.html"],
+        references: [
+          "http://ly.yishihui.net/12861.htm",
+          "https://www.guoyi360.com/64gua04/xj/968.html",
+        ],
       };
     case "蒙六五":
       return {
+        origin: "童蒙, 吉.",
         meaning: "愚昧无知的人接受启发 吉兆",
         videoUrls: ["https://www.youtube.com/embed/5Z-fmmk9V5c"],
-        references: ["https://www.guoyi360.com/64gua04/xj/969.html"],
+        references: [
+          "http://ly.yishihui.net/12859.htm",
+          "https://www.guoyi360.com/64gua04/xj/969.html",
+        ],
       };
     case "蒙上九":
       return {
+        origin: "击蒙. 不利为寇, 利御寇.",
         meaning: "惊醒愚昧无知的人 不宜行为过当 不利于做贼寇 有利于防御贼寇",
         videoUrls: ["https://www.youtube.com/embed/5Z-fmmk9V5c"],
-        references: ["https://www.guoyi360.com/64gua04/xj/970.html"],
+        references: [
+          "http://ly.yishihui.net/12857.htm",
+          "https://www.guoyi360.com/64gua04/xj/970.html",
+        ],
       }; // @TODO
     case "需初九":
       return {
+        origin: "需于郊, 利用恒, 无咎.",
         meaning: "在郊野中等待 适宜持之以恒 可避免灾祸",
         videoUrls: ["https://www.youtube.com/embed/9qyoWMG5X7E"],
-        references: ["https://www.guoyi360.com/64gua05/xj/973.html"],
+        references: [
+          "http://ly.yishihui.net/12879.htm",
+          "https://www.guoyi360.com/64gua05/xj/973.html",
+        ],
       };
     case "需九二":
       return {
+        origin: "需于沙, 小有言, 终吉.",
         meaning: "身处沙地 虽然早到校人的责难 但最终是吉利的",
         videoUrls: ["https://www.youtube.com/embed/9qyoWMG5X7E"],
-        references: ["https://www.guoyi360.com/64gua05/xj/974.html"],
+        references: [
+          "http://ly.yishihui.net/12877.htm",
+          "https://www.guoyi360.com/64gua05/xj/974.html",
+        ],
       };
     case "需九三":
       return {
+        origin: "需于泥, 致寇至.",
         meaning: "在泥泞中行走 招致贼寇前来",
         videoUrls: ["https://www.youtube.com/embed/9qyoWMG5X7E"],
-        references: ["https://www.guoyi360.com/64gua05/xj/975.html"],
+        references: [
+          "http://ly.yishihui.net/12875.htm",
+          "https://www.guoyi360.com/64gua05/xj/975.html",
+        ],
       };
     case "需六四":
       return {
+        origin: "需于血, 出自穴.",
         meaning: "身处血泊中 需要尽快逃离险境",
         videoUrls: ["https://www.youtube.com/embed/9qyoWMG5X7E"],
-        references: ["https://www.guoyi360.com/64gua05/xj/976.html"],
+        references: [
+          "http://ly.yishihui.net/12873.htm",
+          "https://www.guoyi360.com/64gua05/xj/976.html",
+        ],
       };
     case "需九五":
       return {
+        origin: "需于酒食, 贞吉.",
         meaning: "在享用酒食中等待 正固吉祥",
         videoUrls: ["https://www.youtube.com/embed/9qyoWMG5X7E"],
-        references: ["https://www.guoyi360.com/64gua05/xj/977.html"],
+        references: [
+          "http://ly.yishihui.net/12871.htm",
+          "https://www.guoyi360.com/64gua05/xj/977.html",
+        ],
       };
     case "需上六":
       return {
+        origin: "入于穴, 有不速之客三人来, 敬之终吉.",
         meaning: "进入洞穴 虽然会看到不速之客 但尊敬他们 最后获得吉祥",
         videoUrls: ["https://www.youtube.com/embed/9qyoWMG5X7E"],
-        references: ["https://www.guoyi360.com/64gua05/xj/978.html"],
+        references: [
+          "http://ly.yishihui.net/12869.htm",
+          "https://www.guoyi360.com/64gua05/xj/978.html",
+        ],
       };
     case "讼初六":
       return {
+        origin: "不永所事, 小有言, 终吉.",
         meaning: "不要长期困于官司 减少口舌是非 最终获得吉祥",
         videoUrls: ["https://www.youtube.com/embed/PyzmelpqTsQ"],
-        references: ["https://www.guoyi360.com/64gua06/xj/1020.html"],
+        references: [
+          "http://ly.yishihui.net/12933.htm",
+          "https://www.guoyi360.com/64gua06/xj/1020.html",
+        ],
       };
     case "讼九二":
       return {
+        origin: "不克讼, 归而逋, 其邑人三百户无眚.",
         meaning: "官司失利后 应回家躲避 逃到小国 息事宁人",
         videoUrls: ["https://www.youtube.com/embed/PyzmelpqTsQ"],
-        references: ["https://www.guoyi360.com/64gua06/xj/1021.html"],
+        references: [
+          "http://ly.yishihui.net/12929.htm",
+          "https://www.guoyi360.com/64gua06/xj/1021.html",
+        ],
       };
     case "讼六三":
       return {
+        origin: "食旧德, 贞厉, 终吉. 或从王事, 无成.",
         meaning:
           "应该安享旧日俸禄 不要起贪念 若是辅佐君王做事 包括从事公务员工作 即使取得了成就 也不要居功自傲",
         videoUrls: ["https://www.youtube.com/embed/PyzmelpqTsQ"],
-        references: ["https://www.guoyi360.com/64gua06/xj/1022.html"],
+        references: [
+          "http://ly.yishihui.net/12931.htm",
+          "https://www.guoyi360.com/64gua06/xj/1022.html",
+        ],
       };
     case "讼九四":
       return {
+        origin: "不克讼, 复即命, 渝安贞, 吉.",
         meaning: "不再起诉 安于现状 正固吉祥",
         videoUrls: ["https://www.youtube.com/embed/PyzmelpqTsQ"],
-        references: ["https://www.guoyi360.com/64gua06/xj/1023.html"],
+        references: [
+          "http://ly.yishihui.net/12925.htm",
+          "https://www.guoyi360.com/64gua06/xj/1023.html",
+        ],
       };
     case "讼九五":
       return {
+        origin: "讼, 元吉.",
         meaning: "官司得到了公正的判决 吉祥",
         videoUrls: ["https://www.youtube.com/embed/PyzmelpqTsQ"],
-        references: ["https://www.guoyi360.com/64gua06/xj/1024.html"],
+        references: [
+          "http://ly.yishihui.net/12927.htm",
+          "https://www.guoyi360.com/64gua06/xj/1024.html",
+        ],
       };
     case "讼上九":
       return {
+        origin: "或锡之鞶带, 终朝三褫之.",
         meaning: "得到官位 但会多次失去 建议停止诉讼 议和",
         videoUrls: ["https://www.youtube.com/embed/PyzmelpqTsQ"],
-        references: ["https://www.guoyi360.com/64gua06/xj/1025.html"],
+        references: [
+          "http://ly.yishihui.net/12923.htm",
+          "https://www.guoyi360.com/64gua06/xj/1025.html",
+        ],
       }; // @TODO
     case "师初六":
       return {
+        origin: "师出以律, 否臧凶.",
         meaning: "军纪严明 否则有灾祸",
         videoUrls: ["https://www.youtube.com/embed/XQFom8sDlZo"],
-        references: ["https://www.guoyi360.com/64gua07/xj/1028.html"],
+        references: [
+          "http://ly.yishihui.net/12988.htm",
+          "https://www.guoyi360.com/64gua07/xj/1028.html",
+        ],
       };
     case "师九二":
       return {
+        origin: "在师中，吉无咎，王三锡命.",
         meaning: "率军出征 正固 不偏不倚 可获吉祥 无灾祸 君王会多次嘉奖",
         videoUrls: ["https://www.youtube.com/embed/XQFom8sDlZo"],
-        references: ["https://www.guoyi360.com/64gua07/xj/1029.html"],
+        references: [
+          "http://ly.yishihui.net/12986.htm",
+          "https://www.guoyi360.com/64gua07/xj/1029.html",
+        ],
       };
     case "师六三":
       return {
+        origin: "师或舆尸, 凶.",
         meaning: "士兵从战场上运辉尸体 凶险",
         videoUrls: ["https://www.youtube.com/embed/XQFom8sDlZo"],
-        references: ["https://www.guoyi360.com/64gua07/xj/1030.html"],
+        references: [
+          "http://ly.yishihui.net/12984.htm",
+          "https://www.guoyi360.com/64gua07/xj/1030.html",
+        ],
       };
     case "师六四":
       return {
+        origin: "师左次, 无咎.",
         meaning: "率军及时撤退 可避祸",
         videoUrls: ["https://www.youtube.com/embed/XQFom8sDlZo"],
-        references: ["https://www.guoyi360.com/64gua07/xj/1031.html"],
+        references: [
+          "http://ly.yishihui.net/12982.htm",
+          "https://www.guoyi360.com/64gua07/xj/1031.html",
+        ],
       };
     case "师六五":
       return {
+        origin: "田有禽, 利执言, 无咎. 长子帅师, 弟子舆尸, 贞凶.",
         meaning:
           "田间有动物 象征着有利于发表观点 无灾祸 有德的人可统帅军队 无德的人会战败 即使正固也有凶相",
         videoUrls: ["https://www.youtube.com/embed/XQFom8sDlZo"],
-        references: ["https://www.guoyi360.com/64gua07/xj/1032.html"],
+        references: [
+          "http://ly.yishihui.net/12980.htm",
+          "https://www.guoyi360.com/64gua07/xj/1032.html",
+        ],
       };
     case "师上六":
       return {
+        origin: "大君有命, 开国承家, 小人勿用.",
         meaning: "天子颁布诏命 论功封爵 需要重用君子远离小人",
         videoUrls: ["https://www.youtube.com/embed/XQFom8sDlZo"],
-        references: ["https://www.guoyi360.com/64gua07/xj/1033.html"],
+        references: [
+          "http://ly.yishihui.net/12978.htm",
+          "https://www.guoyi360.com/64gua07/xj/1033.html",
+        ],
       };
     case "比初六":
       return {
+        origin: "有孚比之, 无咎. 有孚盈缶, 终来有它吉.",
         meaning: "以诚待人 会得到更多的朋友 吉祥",
         videoUrls: ["https://www.youtube.com/embed/GBZas8k7mRs"],
-        references: ["https://www.guoyi360.com/64gua08/xj/1068.html"],
+        references: [
+          "http://ly.yishihui.net/12976.htm",
+          "https://www.guoyi360.com/64gua08/xj/1068.html",
+        ],
       };
     case "比六二":
       return {
+        origin: "比之自内, 贞吉.",
         meaning: "加强内部团结 来辅佐君主 吉祥",
         videoUrls: ["https://www.youtube.com/embed/GBZas8k7mRs"],
-        references: ["https://www.guoyi360.com/64gua08/xj/1069.html"],
+        references: [
+          "http://ly.yishihui.net/12974.htm",
+          "https://www.guoyi360.com/64gua08/xj/1069.html",
+        ],
       };
     case "比六三":
       return {
+        origin: "比之匪人.",
         meaning: "与匪为友 交不到合适的朋友",
         videoUrls: ["https://www.youtube.com/embed/GBZas8k7mRs"],
-        references: ["https://www.guoyi360.com/64gua08/xj/1070.html"],
+        references: [
+          "http://ly.yishihui.net/12972.htm",
+          "https://www.guoyi360.com/64gua08/xj/1070.html",
+        ],
       }; // @TODO
     case "比六四":
       return {
+        origin: "外比之, 贞吉.",
         meaning: "交往中相互信任 加强团结 吉祥",
         videoUrls: ["https://www.youtube.com/embed/GBZas8k7mRs"],
-        references: ["https://www.guoyi360.com/64gua08/xj/1071.html"],
+        references: [
+          "http://ly.yishihui.net/12970.htm",
+          "https://www.guoyi360.com/64gua08/xj/1071.html",
+        ],
       };
     case "比九五":
       return {
+        origin: "显比, 王用三驱, 失前禽. 邑人不诫, 吉.",
         meaning:
           "光明正大交往 君王用三趣之礼狩猎 失去前面的禽兽 老百姓不怕君王 吉祥",
         videoUrls: ["https://www.youtube.com/embed/GBZas8k7mRs"],
-        references: ["https://www.guoyi360.com/64gua08/xj/1072.html"],
+        references: [
+          "http://ly.yishihui.net/12968.htm",
+          "https://www.guoyi360.com/64gua08/xj/1072.html",
+        ],
       }; // @TODO
     case "比上六":
       return {
+        origin: "比之无首, 凶.",
         meaning: "结交不到首领 凶相",
         videoUrls: ["https://www.youtube.com/embed/GBZas8k7mRs"],
-        references: ["https://www.guoyi360.com/64gua08/xj/1073.html"],
+        references: [
+          "http://ly.yishihui.net/12966.htm",
+          "https://www.guoyi360.com/64gua08/xj/1073.html",
+        ],
       };
     case "小畜初九":
       return {
+        origin: "复自道, 何其咎? 吉.",
         meaning: "重复自己的做事风格 无灾且吉祥",
         videoUrls: ["https://www.youtube.com/embed/R5QnvJ_ZTcQ"],
-        references: ["https://www.guoyi360.com/64gua09/xj/1076.html"],
+        references: [
+          "http://ly.yishihui.net/12964.htm",
+          "https://www.guoyi360.com/64gua09/xj/1076.html",
+        ],
       };
     case "小畜九二":
       return {
+        origin: "牵复, 吉.",
         meaning: "被牵连而返回本位 吉祥",
         videoUrls: ["https://www.youtube.com/embed/R5QnvJ_ZTcQ"],
-        references: ["https://www.guoyi360.com/64gua09/xj/1077.html"],
+        references: [
+          "http://ly.yishihui.net/12962.htm",
+          "https://www.guoyi360.com/64gua09/xj/1077.html",
+        ],
       };
     case "小畜九三":
       return {
+        origin: "舆说辐, 夫妻反目.",
         meaning: "大车脱落了辐条 夫妻反目失和",
         videoUrls: ["https://www.youtube.com/embed/R5QnvJ_ZTcQ"],
-        references: ["https://www.guoyi360.com/64gua09/xj/1078.html"],
+        references: [
+          "http://ly.yishihui.net/12960.htm",
+          "https://www.guoyi360.com/64gua09/xj/1078.html",
+        ],
       };
     case "小畜六四":
       return {
+        origin: "有孚, 血去惕出, 无咎.",
         meaning: "有诚信 不再忧虑 从恐惧中走出来 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/R5QnvJ_ZTcQ"],
-        references: ["https://www.guoyi360.com/64gua09/xj/1079.html"],
+        references: [
+          "http://ly.yishihui.net/12958.htm",
+          "https://www.guoyi360.com/64gua09/xj/1079.html",
+        ],
       };
     case "小畜九五":
       return {
+        origin: "有孚挛如, 富以其邻.",
         meaning: "诚信相连 与邻居共享富裕",
         videoUrls: ["https://www.youtube.com/embed/R5QnvJ_ZTcQ"],
-        references: ["https://www.guoyi360.com/64gua09/xj/1080.html"],
+        references: [
+          "http://ly.yishihui.net/12955.htm",
+          "https://www.guoyi360.com/64gua09/xj/1080.html",
+        ],
       };
     case "小畜上九":
       return {
+        origin: "既雨既处, 尚德载. 妇贞厉. 月几望, 君子征凶.",
         meaning: "所需雨水已积满 积德载物 日月同辉 出战凶险",
         videoUrls: ["https://www.youtube.com/embed/R5QnvJ_ZTcQ"],
-        references: ["https://www.guoyi360.com/64gua09/xj/1081.html"],
+        references: [
+          "http://ly.yishihui.net/12947.htm",
+          "https://www.guoyi360.com/64gua09/xj/1081.html",
+        ],
       }; // @TODO
     case "履初九":
       return {
+        origin: "素履, 往无咎.",
         meaning: "衣着朴实无华 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/Kto-2bfj650"],
-        references: ["https://www.guoyi360.com/64gua10/xj/1120.html"],
+        references: [
+          "http://ly.yishihui.net/13026.htm",
+          "https://www.guoyi360.com/64gua10/xj/1120.html",
+        ],
       };
     case "履九二":
       return {
+        origin: "履道坦坦, 幽人贞吉.",
         meaning: "走在平坦的大道上 安然的人占问此卦吉祥",
         videoUrls: ["https://www.youtube.com/embed/Kto-2bfj650"],
-        references: ["https://www.guoyi360.com/64gua10/xj/1121.html"],
+        references: [
+          "http://ly.yishihui.net/13024.htm",
+          "https://www.guoyi360.com/64gua10/xj/1121.html",
+        ],
       };
     case "履六三":
       return {
+        origin: "眇能视, 跛能履. 履虎尾, 咥人, 凶. 武人为于大君.",
         meaning:
           "眼睛快要瞎了 但勉强能看到一点点 腿跛了 但勉强能走几步 不小心踩在老虎尾巴上 老虎回头就咬人 凶险 勇敢的武士要竭力为君主效劳",
         videoUrls: ["https://www.youtube.com/embed/Kto-2bfj650"],
-        references: ["https://www.guoyi360.com/64gua10/xj/1122.html"],
+        references: [
+          "http://ly.yishihui.net/13022.htm",
+          "https://www.guoyi360.com/64gua10/xj/1122.html",
+        ],
       };
     case "履九四":
       return {
+        origin: "履虎尾, 愬愬, 终吉.",
         meaning: "踩在老虎尾巴上 恐惧最后退去 吉祥",
         videoUrls: ["https://www.youtube.com/embed/Kto-2bfj650"],
-        references: ["https://www.guoyi360.com/64gua10/xj/1123.html"],
+        references: [
+          "http://ly.yishihui.net/13020.htm",
+          "https://www.guoyi360.com/64gua10/xj/1123.html",
+        ],
       };
     case "履九五":
       return {
+        origin: "夬履，贞厉.",
         meaning: "奋不顾身 冒然前行 占卜此卦者 凶",
         videoUrls: ["https://www.youtube.com/embed/Kto-2bfj650"],
-        references: ["https://www.guoyi360.com/64gua10/xj/1124.html"],
+        references: [
+          "http://ly.yishihui.net/13006.htm",
+          "https://www.guoyi360.com/64gua10/xj/1124.html",
+        ],
       };
     case "履上九":
       return {
+        origin: "视履考祥, 其旋元吉.",
         meaning: "不断反思审视自己的所作所为 最终吉祥",
         videoUrls: ["https://www.youtube.com/embed/Kto-2bfj650"],
-        references: ["https://www.guoyi360.com/64gua10/xj/1125.html"],
+        references: [
+          "http://ly.yishihui.net/13002.htm",
+          "https://www.guoyi360.com/64gua10/xj/1125.html",
+        ],
       };
     case "泰初九":
       return {
+        origin: "拔茅茹, 以其汇, 征吉.",
         meaning: "拔出的茅草离开地面向上是吉利征兆 出征吉祥",
         videoUrls: ["https://www.youtube.com/embed/AUl97v7Kg3Y"],
-        references: ["https://www.guoyi360.com/64gua11/xj/1168.html"],
+        references: [
+          "http://ly.yishihui.net/13000.htm",
+          "https://www.guoyi360.com/64gua11/xj/1168.html",
+        ],
       };
     case "泰九二":
       return {
+        origin: "包荒, 用冯河, 不遐遗, 朋亡, 得尚于中行.",
         meaning:
           "有包容大川似的宽广胸怀 可以徒步涉过大河急流 礼贤下士 对远方的贤德之人也不遗弃 不结成小团体 不结党营私 能够辅佐公正有道德的君主",
         videoUrls: ["https://www.youtube.com/embed/AUl97v7Kg3Y"],
-        references: ["https://www.guoyi360.com/64gua11/xj/1169.html"],
+        references: [
+          "http://ly.yishihui.net/12998.htm",
+          "https://www.guoyi360.com/64gua11/xj/1169.html",
+        ],
       };
     case "泰九三":
       return {
+        origin: "无平不陂, 无往不复; 艰贞无咎, 勿悔恤其孚, 于食有福.",
         meaning:
           "处境艰难 正固 没有灾祸 不要怕不能取信于人 在饮食方面有口福之吉",
         videoUrls: ["https://www.youtube.com/embed/AUl97v7Kg3Y"],
@@ -1547,205 +1793,319 @@ export function answers(guaYao) {
       };
     case "泰六四":
       return {
+        origin: "翩翩不富, 以其邻, 不戒以孚.",
         meaning: "像小鸟一样翩翩起舞 因不与邻居共享富有 互相不加戒备 以诚相待",
         videoUrls: ["https://www.youtube.com/embed/AUl97v7Kg3Y"],
-        references: ["https://www.guoyi360.com/64gua11/xj/1171.html"],
+        references: [
+          "http://ly.yishihui.net/12994.htm",
+          "https://www.guoyi360.com/64gua11/xj/1171.html",
+        ],
       }; // @TODO
     case "泰六五":
       return {
+        origin: "帝乙归妹, 以祉元吉.",
         meaning: "帝乙嫁女 因此而获得福泽 最为吉祥",
         videoUrls: ["https://www.youtube.com/embed/AUl97v7Kg3Y"],
-        references: ["https://www.guoyi360.com/64gua11/xj/1172.html"],
+        references: [
+          "http://ly.yishihui.net/12990.htm",
+          "https://www.guoyi360.com/64gua11/xj/1172.html",
+        ],
       };
     case "泰上六":
       return {
+        origin: "城复于隍, 勿用师. 自邑告命, 贞吝.",
         meaning: "城墙倒塌在城壕里 不宜用兵 在城邑中祷告天命 占问必艰难之兆",
         videoUrls: ["https://www.youtube.com/embed/AUl97v7Kg3Y"],
-        references: ["https://www.guoyi360.com/64gua11/xj/1173.html"],
+        references: [
+          "http://ly.yishihui.net/12992.htm",
+          "https://www.guoyi360.com/64gua11/xj/1173.html",
+        ],
       };
     case "否初六":
       return {
+        origin: "拔茅茹, 以其汇, 贞吉, 亨.",
         meaning: "拔出的茅草离开地面向上 吉利征兆 有为",
         videoUrls: ["https://www.youtube.com/embed/R5W3ZhXqW5A"],
-        references: ["https://www.guoyi360.com/64gua12/xj/2457.html"],
+        references: [
+          "http://ly.yishihui.net/12945.htm",
+          "https://www.guoyi360.com/64gua12/xj/2457.html",
+        ],
       };
     case "否六二":
       return {
+        origin: "包承, 小人吉; 大人否, 亨.",
         meaning: "被包容并顺从承受尊者 小人可获吉祥 君子则需要躲避 通达",
         videoUrls: ["https://www.youtube.com/embed/R5W3ZhXqW5A"],
-        references: ["https://www.guoyi360.com/64gua12/xj/2458.html"],
+        references: [
+          "http://ly.yishihui.net/12943.htm",
+          "https://www.guoyi360.com/64gua12/xj/2458.html",
+        ],
       }; // @TODO
     case "否六三":
       return {
+        origin: "包羞.",
         meaning: "被包容而居于下位 最终招致羞辱",
         videoUrls: ["https://www.youtube.com/embed/R5W3ZhXqW5A"],
-        references: ["https://www.guoyi360.com/64gua12/xj/2459.html"],
+        references: [
+          "http://ly.yishihui.net/12941.htm",
+          "https://www.guoyi360.com/64gua12/xj/2459.html",
+        ],
       };
     case "否九四":
       return {
+        origin: "有命无咎, 畴离祉.",
         meaning: "得到君王授命 没有灾祸 众人依附 共享福禄",
         videoUrls: ["https://www.youtube.com/embed/R5W3ZhXqW5A"],
-        references: ["https://www.guoyi360.com/64gua12/xj/2460.html"],
+        references: [
+          "http://ly.yishihui.net/12939.htm",
+          "https://www.guoyi360.com/64gua12/xj/2460.html",
+        ],
       };
     case "否九五":
       return {
+        origin: "休否, 大人吉; 其亡其亡, 系于苞桑.",
         meaning:
           "君子不用躲避 君子可获吉祥 将要灭亡 将要灭亡 白自己拴在大桑树上 就会安然无恙",
         videoUrls: ["https://www.youtube.com/embed/R5W3ZhXqW5A"],
-        references: ["https://www.guoyi360.com/64gua12/xj/2461.html"],
+        references: [
+          "http://ly.yishihui.net/12937.htm",
+          "https://www.guoyi360.com/64gua12/xj/2461.html",
+        ],
       };
     case "否上九":
       return {
+        origin: "倾否，先否后喜.",
         meaning: "苦尽甘来 皆大欢喜",
         videoUrls: ["https://www.youtube.com/embed/R5W3ZhXqW5A"],
-        references: ["https://www.guoyi360.com/64gua12/xj/2462.html"],
+        references: [
+          "http://ly.yishihui.net/12935.htm",
+          "https://www.guoyi360.com/64gua12/xj/2462.html",
+        ],
       };
     case "同人初九":
       return {
+        origin: "同人于门, 无咎.",
         meaning: "走出大门 与人亲近 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/2nuX-Zgrlfk"],
-        references: ["https://www.guoyi360.com/64gua13/xj/2489.html"],
+        references: [
+          "http://ly.yishihui.net/12921.htm",
+          "https://www.guoyi360.com/64gua13/xj/2489.html",
+        ],
       };
     case "同人六二":
       return {
+        origin: "同人于宗, 吝.",
         meaning: "亲近同族的人 必然艰难",
         videoUrls: ["https://www.youtube.com/embed/2nuX-Zgrlfk"],
-        references: ["https://www.guoyi360.com/64gua13/xj/2490.html"],
+        references: [
+          "http://ly.yishihui.net/12921.htm",
+          "https://www.guoyi360.com/64gua13/xj/2490.html",
+        ],
       };
     case "同人九三":
       return {
+        origin: "伏戎于莽, 升其高陵, 三岁不兴.",
         meaning: "在草丛中设好伏兵 登高望远 三年不能发动战争",
         videoUrls: ["https://www.youtube.com/embed/2nuX-Zgrlfk"],
-        references: ["https://www.guoyi360.com/64gua13/xj/2491.html"],
+        references: [
+          "http://ly.yishihui.net/12917.htm",
+          "https://www.guoyi360.com/64gua13/xj/2491.html",
+        ],
       };
     case "同人九四":
       return {
+        origin: "乘其墉, 弗克攻, 吉.",
         meaning: "占据城头之上 自行退兵而不进攻 可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/2nuX-Zgrlfk"],
-        references: ["https://www.guoyi360.com/64gua13/xj/2492.html"],
+        references: [
+          "http://ly.yishihui.net/12915.htm",
+          "https://www.guoyi360.com/64gua13/xj/2492.html",
+        ],
       };
     case "同人九五":
       return {
+        origin: "同人, 先号啕而后笑, 大师克相遇.",
         meaning: "与人同心同德 先哭后笑 大军会师 庆祝胜利",
         videoUrls: ["https://www.youtube.com/embed/2nuX-Zgrlfk"],
-        references: ["https://www.guoyi360.com/64gua13/xj/2493.html"],
+        references: [
+          "http://ly.yishihui.net/12913.htm",
+          "https://www.guoyi360.com/64gua13/xj/2493.html",
+        ],
       };
     case "同人上九":
       return {
+        origin: "同人于郊, 无悔.",
         meaning: "与人在郊外亲善和睦 不会有困厄",
         videoUrls: ["https://www.youtube.com/embed/2nuX-Zgrlfk"],
-        references: ["https://www.guoyi360.com/64gua13/xj/2494.html"],
+        references: [
+          "http://ly.yishihui.net/12911.htm",
+          "https://www.guoyi360.com/64gua13/xj/2494.html",
+        ],
       };
     case "大有初九":
       return {
+        origin: "无交害, 匪咎; 艰则无咎.",
         meaning:
           "有人交往 不涉及利害 自然不会招致灾祸 须知 需要经历艰辛 才可避免灾祸",
         videoUrls: ["https://www.youtube.com/embed/r4LmwhY5RQY"],
-        references: ["https://www.guoyi360.com/64gua14/xj/2506.html"],
+        references: [
+          "http://ly.yishihui.net/13375.htm",
+          "https://www.guoyi360.com/64gua14/xj/2506.html",
+        ],
       };
     case "大有九二":
       return {
+        origin: "大车以载, 有攸往, 无咎.",
         meaning: "用大车载物 无论去哪里 都不会有灾祸",
         videoUrls: ["https://www.youtube.com/embed/r4LmwhY5RQY"],
-        references: ["https://www.guoyi360.com/64gua14/xj/2507.html"],
+        references: [
+          "http://ly.yishihui.net/13373.htm",
+          "https://www.guoyi360.com/64gua14/xj/2507.html",
+        ],
       };
     case "大有九三":
       return {
+        origin: "公用亨于天子, 小人弗克.",
         meaning: "公候按时向天子进贡 小人做不到这一点",
         videoUrls: ["https://www.youtube.com/embed/r4LmwhY5RQY"],
-        references: ["https://www.guoyi360.com/64gua14/xj/2508.html"],
+        references: [
+          "http://ly.yishihui.net/13371.htm",
+          "https://www.guoyi360.com/64gua14/xj/2508.html",
+        ],
       }; // @TODO
     case "大有九四":
       return {
+        origin: "匪其彭, 无咎.",
         meaning: "不骄不躁 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/r4LmwhY5RQY"],
-        references: ["https://www.guoyi360.com/64gua14/xj/2509.html"],
+        references: [
+          "http://ly.yishihui.net/13369.htm",
+          "https://www.guoyi360.com/64gua14/xj/2509.html",
+        ],
       };
     case "大有六五":
       return {
+        origin: "厥孚交如, 威如, 吉.",
         meaning: "胸怀坦荡 上下以诚相待 威严自显 可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/r4LmwhY5RQY"],
-        references: ["https://www.guoyi360.com/64gua14/xj/2510.html"],
+        references: [
+          "http://ly.yishihui.net/13367.htm",
+          "https://www.guoyi360.com/64gua14/xj/2510.html",
+        ],
       };
     case "大有上九":
       return {
+        origin: "自天祐之, 吉无不利.",
         meaning: "会得到上天的帮助 吉祥而无不利",
         videoUrls: ["https://www.youtube.com/embed/r4LmwhY5RQY"],
-        references: ["https://www.guoyi360.com/64gua14/xj/2511.html"],
+        references: [
+          "http://ly.yishihui.net/13365.htm",
+          "https://www.guoyi360.com/64gua14/xj/2511.html",
+        ],
       };
     case "谦初六":
       return {
+        origin: "谦谦君子, 用涉大川. 吉.",
         meaning: "谦虚而富有美德的君子 梵语大江大河 可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/ehKEoYdCqnY"],
-        references: [""],
+        references: ["http://ly.yishihui.net/13363.htm"],
       };
     case "谦六二":
       return {
+        origin: "鸣谦, 贞吉",
         meaning: "谦虚之名传扬外界 正固吉祥",
         videoUrls: ["https://www.youtube.com/embed/ehKEoYdCqnY"],
-        references: [""],
+        references: ["http://ly.yishihui.net/13345.htm"],
       };
     case "谦九三":
       return {
+        origin: "劳谦君子, 有终吉",
         meaning: "有功而谦虚 君子保持谦逊 正固吉祥",
         videoUrls: ["https://www.youtube.com/embed/ehKEoYdCqnY"],
-        references: [""],
+        references: ["http://ly.yishihui.net/13341.htm"],
       };
     case "谦六四":
       return {
+        origin: "无不利, 撝谦",
         meaning: "发扬谦逊美德 行事无往不利",
         videoUrls: ["https://www.youtube.com/embed/ehKEoYdCqnY"],
-        references: [""],
+        references: ["http://ly.yishihui.net/13339.htm"],
       };
     case "谦六五":
       return {
+        origin: "不富以其邻, 利用侵伐, 无不利",
         meaning: "与邻国同遭侵略 则需共同应战 如此无往不利",
         videoUrls: ["https://www.youtube.com/embed/ehKEoYdCqnY"],
-        references: [""],
+        references: ["http://ly.yishihui.net/13337.htm"],
       };
     case "谦上六":
       return {
+        origin: "鸣谦, 利用行师, 征邑国",
         meaning: "谦虚之名传扬外界 利于兴兵征伐 占领新的领地",
         videoUrls: ["https://www.youtube.com/embed/ehKEoYdCqnY"],
-        references: [""],
+        references: ["http://ly.yishihui.net/13335.htm"],
       };
     case "豫初六":
       return {
+        origin: "鸣豫, 凶",
         meaning: "因喜悦而闻名 有凶险",
         videoUrls: ["https://www.youtube.com/embed/hEwqpStCXpA"],
-        references: ["https://www.guoyi360.com/64gua16/xj/2566.html"],
+        references: [
+          "http://ly.yishihui.net/13331.htm",
+          "https://www.guoyi360.com/64gua16/xj/2566.html",
+        ],
       }; // @TODO
     case "豫六二":
       return {
+        origin: "介于石, 不终日, 贞吉",
         meaning: "德行坚贞胜过磐石 不浪费生命 正固吉祥",
         videoUrls: ["https://www.youtube.com/embed/hEwqpStCXpA"],
-        references: ["https://www.guoyi360.com/64gua16/xj/2567.html"],
+        references: [
+          "http://ly.yishihui.net/13329.htm",
+          "https://www.guoyi360.com/64gua16/xj/2567.html",
+        ],
       }; // @TODO
     case "豫六三":
       return {
+        origin: "盱豫, 悔. 迟有悔.",
         meaning: "小人媚上以逸乐惑主 会有忧悔 悔恨太迟会更后悔",
         videoUrls: ["https://www.youtube.com/embed/hEwqpStCXpA"],
-        references: ["https://www.guoyi360.com/64gua16/xj/2568.html"],
+        references: [
+          "http://ly.yishihui.net/13333.htm",
+          "https://www.guoyi360.com/64gua16/xj/2568.html",
+        ],
       }; // @TODO
     case "豫九四":
       return {
+        origin: "由豫, 大有得, 勿疑, 朋盍簪.",
         meaning:
           "喜乐自来 会有大的收获 不比猜疑 像簪子聚拢头发一样将朋友们聚集在一起",
         videoUrls: ["https://www.youtube.com/embed/hEwqpStCXpA"],
-        references: ["https://www.guoyi360.com/64gua16/xj/2569.html"],
+        references: [
+          "http://ly.yishihui.net/13327.htm",
+          "https://www.guoyi360.com/64gua16/xj/2569.html",
+        ],
       };
     case "豫六五":
       return {
+        origin: "贞疾, 恒不死.",
         meaning: "占问疫病吉凶 得此卦者 会病期长 但不会死亡",
         videoUrls: ["https://www.youtube.com/embed/hEwqpStCXpA"],
-        references: ["https://www.guoyi360.com/64gua16/xj/2570.html"],
+        references: [
+          "http://ly.yishihui.net/13325.htm",
+          "https://www.guoyi360.com/64gua16/xj/2570.html",
+        ],
       };
     case "豫上六":
       return {
+        origin: "冥豫, 成有渝, 无咎.",
         meaning:
           "已处在天昏地暗的局面 去沉溺于寻欢作乐 十分危险， 若改弦更张 可避免灾祸",
         videoUrls: ["https://www.youtube.com/embed/hEwqpStCXpA"],
-        references: ["https://www.guoyi360.com/64gua16/xj/2571.html"],
+        references: [
+          "http://ly.yishihui.net/13323.htm",
+          "https://www.guoyi360.com/64gua16/xj/2571.html",
+        ],
       };
     case "随初九":
       return {
