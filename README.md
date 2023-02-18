@@ -25,9 +25,7 @@ yarn dev
 6).
 
 <!-- ### Ideas
-1). add 384 yao ci into object
-2). add related url link into object
-3). add related videos into object
-4). add gua xiang meaning link into object
-5). add reference resources links t=into object
+1). fix todos
+2). validate each 384 yao ci data (including 'biao dian' check)
+3). dispaly them all
  -->

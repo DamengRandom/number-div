@@ -437,9 +437,9 @@ export function answer(guaYao) {
     case "讼九四":
       return "不再起诉 安于现状 正固吉祥";
     case "讼九五":
-      return "官司得到了公正的判决 吉祥";
+      return "官司得到了公正的判决 最好的吉祥";
     case "讼上九":
-      return "得到官位 但会多次失去 建议停止诉讼 议和"; // @TODO
+      return "得到官位 但一天之内会多次失去"; // @TODO
     case "师初六":
       return "军纪严明 否则有灾祸";
     case "师九二":
@@ -457,11 +457,11 @@ export function answer(guaYao) {
     case "比六二":
       return "加强内部团结 来辅佐君主 吉祥";
     case "比六三":
-      return "与匪为友 交不到合适的朋友"; // @TODO
+      return "亲附了不该亲附的人"; // @TODO
     case "比六四":
       return "交往中相互信任 加强团结 吉祥";
     case "比九五":
-      return "光明正大交往 君王用三趣之礼狩猎 失去前面的禽兽 老百姓不怕君王 吉祥"; // @TODO
+      return "光明正大交往 君王用三面包围的方式狩猎 失去前面的禽兽 老百姓不害怕君王 吉祥"; // @TODO
     case "比上六":
       return "结交不到首领 凶相";
     case "小畜初九":
@@ -489,7 +489,7 @@ export function answer(guaYao) {
     case "履上九":
       return "不断反思审视自己的所作所为 最终吉祥";
     case "泰初九":
-      return "拔出的茅草离开地面向上是吉利征兆 出征吉祥";
+      return "拔出的茅草离开地面向上是吉利征兆 出门远行吉祥";
     case "泰九二":
       return "有包容大川似的宽广胸怀 可以徒步涉过大河急流 礼贤下士 对远方的贤德之人也不遗弃 不结成小团体 不结党营私 能够辅佐公正有道德的君主";
     case "泰九三":
@@ -501,7 +501,7 @@ export function answer(guaYao) {
     case "泰上六":
       return "城墙倒塌在城壕里 不宜用兵 在城邑中祷告天命 占问必艰难之兆";
     case "否初六":
-      return "拔出的茅草离开地面向上 吉利征兆 有为";
+      return "拔出的茅草离开地面向上 吉利征兆 通达";
     case "否六二":
       return "被包容并顺从承受尊者 小人可获吉祥 君子则需要躲避 通达"; // @TODO
     case "否六三":
@@ -529,7 +529,7 @@ export function answer(guaYao) {
     case "大有九二":
       return "用大车载物 无论去哪里 都不会有灾祸";
     case "大有九三":
-      return "公候按时向天子进贡 小人做不到这一点"; // @TODO
+      return "君王宴请公侯 小人不可以参与"; // @TODO
     case "大有九四":
       return "不骄不躁 无灾祸";
     case "大有六五":
@@ -559,9 +559,9 @@ export function answer(guaYao) {
     case "豫六五":
       return "占问疫病吉凶 得此卦者 会病期长 但不会死亡";
     case "豫上六":
-      return "已处在天昏地暗的局面 去沉溺于寻欢作乐 十分危险， 若改弦更张 可避免灾祸";
+      return "已处在天昏地暗的局面 去沉溺于寻欢作乐 十分危险 若改弦更张 可避免灾祸";
     case "随初九":
-      return "官位有变动 利于正固 吉祥 出门交友不会有过失"; // @TODO
+      return "官位有变动 正固吉祥 出门交友不会有过失"; // @TODO
     case "随六二":
       return "依附小人会失去德高望重的人";
     case "随六三":
@@ -571,7 +571,7 @@ export function answer(guaYao) {
     case "随九五":
       return "真诚的随从嘉言善行 吉祥";
     case "随上六":
-      return "先拘押起来 后又捆绑起来 成为君王祭祀在西山的牺牲品"; // @TODO
+      return "先拘押起来 后又捆绑起来 成为君王在西山祭祀的牺牲品"; // @TODO
     case "蛊初六":
       return "改正父亲的过失 有了这样的儿子 父辈以及父辈以上可避免灾祸 即使开始会有危险 最后可获得吉祥";
     case "蛊九二":
@@ -583,13 +583,13 @@ export function answer(guaYao) {
     case "蛊六五":
       return "改正父亲的过失 会得到赞誉";
     case "蛊上九":
-      return "不侍奉王侯 专心自己的领域是高尚的"; // @TODO
+      return "不侍奉王侯 专注于自己的事业"; // @TODO
     case "临初九":
       return "心怀感化之心降临到民众 可获吉祥";
     case "临九二":
       return "心怀感化之心降临到民众 吉祥 无所不利";
     case "临六三":
-      return "居高临下 靠甜言蜜语督导 无利 已然知晓自己的过失 无灾祸"; // @TODO
+      return "用钳制的政策治理民众 无益处 已然知晓自己的过失 无灾祸"; // @TODO
     case "临六四":
       return "亲子体察民情 无灾祸";
     case "临六五":
@@ -615,7 +615,7 @@ export function answer(guaYao) {
     case "噬嗑六三":
       return "咬腊肉干 中了毒 小有不顺 无灾祸";
     case "噬嗑九四":
-      return "施用刑罚惩戒犯人 像咬带骨的肉一样困难 具有铜箭一样的刚正之气 有利于在艰难的时候正固 可获吉祥"; // @TODO
+      return "啃吃骨头 发现骨头中有金属箭头 卜问艰难之事 结果是吉利的"; // @TODO
     case "噬嗑六五":
       return "吃风干的肉 得到黄金 正固思危 无灾祸";
     case "噬嗑上九":
@@ -623,7 +623,7 @@ export function answer(guaYao) {
     case "贲初九":
       return "修饰脚趾弃车步行而走";
     case "贲六二":
-      return "修饰胡须 为了与上司一起"; // @TODO
+      return "修饰自己的胡须 帮助君王振兴国家"; // @TODO
     case "贲九三":
       return "修饰过后再加以润色 长期正固吉祥";
     case "贲六四":
@@ -651,13 +651,13 @@ export function answer(guaYao) {
     case "复六三":
       return "频繁的返回 艰难 无灾祸";
     case "复六四":
-      return "在行列中能独自返回"; // @TODO
+      return "中途独自返回"; // @TODO
     case "复六五":
       return "敦厚笃诚的返回 没有悔恨";
     case "复上六":
       return "迷失在返回的途中 有凶险 会有灾难 出兵打仗 最终惨败凶险来自于国君 十年不可以出战"; // @TODO
     case "无妄初九":
-      return "不妄为 按照自己的心志 所行 吉祥";
+      return "不妄为 按照自己的心志 前行吉祥";
     case "无妄六二":
       return "不耕耘却有收获 不开荒却有良田 则有利于有所作为";
     case "无妄六三":
@@ -681,17 +681,17 @@ export function answer(guaYao) {
     case "大畜上九":
       return "四通八达的道路 亨通顺畅";
     case "颐初九":
-      return "扔下属于你的灵龟 看我吃东西 有凶险"; // @TODO
+      return "自己储藏着大量的财宝 还要羡嫉人家的财物 必遭凶险之事"; // @TODO
     case "颐六二":
-      return "颠倒颐精养气之道 像高处寻求颐养 兴兵作战会有风险"; // @TODO
+      return "为了糊口 就得在山坡上开荒种地 为了生计而去抢劫别人 这是凶险之事"; // @TODO
     case "颐六三":
       return "违反颐精养气之道 即使正固也有凶险 十年内不能施展才能 无益处";
     case "颐六四":
-      return "颠倒颐精养气之道 可获吉祥 像老虎一样凝视 急欲不断的追逐 无灾祸"; // @TODO
+      return "所求不过糊口 害人之心不可存 吉利 虎视眈眈 防人之心不可无 这样就可以安享天年 悠然自得 无灾祸"; // @TODO
     case "颐六五":
       return "违反规律 在家正固 可获吉祥 不可以跨越大江大河";
     case "颐上九":
-      return "鲸油颐精养气之道 虽然艰难 可获吉祥 利于渡过大江大河"; // @TODO
+      return "遵循生活正道 先艰难而终吉利 筮遇此爻 有利于涉水渡河"; // @TODO
     case "大过初六":
       return "用洁净的茅草铺地以陈设祭品 无灾祸";
     case "大过九二":
@@ -711,7 +711,7 @@ export function answer(guaYao) {
     case "坎六三":
       return "来来回回都处于险难之中 陷穴既险也深 一旦落入陷阱之中 暂时无法施展才能";
     case "坎六四":
-      return "将一杯薄酒 两筐淡食 用瓦罐装起来 用窗口收到信约 最后无灾祸"; // @TODO
+      return "将一杯薄酒 两筐淡食 用瓦罐装起来 用窗口送进去出 最后无灾祸"; // @TODO
     case "坎九五":
       return "陷穴尚未满溢 到需要稳定时则艰难自平 无灾祸"; // @TODO
     case "坎上六":
@@ -725,9 +725,9 @@ export function answer(guaYao) {
     case "离九四":
       return "突如其来 如同火焰熊熊燃烧 会有生命危险 会被抛弃"; // @TODO
     case "离六五":
-      return "眼泪涌出的样子 悲戚哀叹的样子 可获吉祥"; // @TODO
+      return "眼泪涌出的样子 悲戚哀叹的样子 然后可获吉祥"; // @TODO
     case "离上九":
-      return "君王用贤人出兵征伐 对能够斩杀敌方首领的人给予嘉奖 不复活一般的随从 无灾祸"; // @TODO
+      return "君王用贤人出兵征伐 对能够斩杀敌方首领的人给予嘉奖 不俘获一般的随从 无灾祸"; // @TODO
     case "咸初六":
       return "感应发生在脚上的大拇指 因势而动";
     case "咸六二":
@@ -765,13 +765,13 @@ export function answer(guaYao) {
     case "遁上九":
       return "远走高飞 完全退避 无所不利";
     case "大壮初九":
-      return "脚趾变粗壮 出兵征伐 有凶险 需要诚信"; // @TODO
+      return "脚趾变粗壮 出兵征伐 有凶险 需要有诚信"; // @TODO
     case "大壮九二":
       return "正固吉祥";
     case "大壮九三":
       return "小人靠力量 君子不这样 正固有危险 公山羊用角顶篱笆 角被缠住"; // @TODO
     case "大壮九四":
-      return "正固吉祥 忧悔消除 藩篱被冲破 羊角被解脱出来 像大车的车轮一样结实"; // @TODO
+      return "正固吉祥 忧悔消除 因为公羊冲决篱笆 摆脱了拘系 但又被车轮撞伤 不能乱冲乱撞了"; // @TODO
     case "大壮六五":
       return "在田边丢失山羊 不会有忧悔";
     case "大壮上六":
@@ -1148,7 +1148,7 @@ export function answers(guaYao) {
         yao: "初九",
         xiaoXiang: "潜龙勿用, 阳在下也.",
         origin: "潜龙勿用.",
-        meaning: "潜藏的龙在深渊 暂时无法施展.",
+        meaning: "潜藏的龙在深渊 暂时无法施展",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
@@ -1163,9 +1163,9 @@ export function answers(guaYao) {
         gua: "乾",
         daXiang: "元, 亨, 利, 贞.",
         yao: "九二",
-        xiaoXiang: "潜龙勿用, 见龙在田, 德施普也.",
+        xiaoXiang: "见龙在田, 德施普也.",
         origin: "见龙在田, 利见大人.",
-        meaning: "龙正在走出低谷 运用德行寻求机会 有利于大才大德的是出世.",
+        meaning: "龙正在走出低谷 运用德行寻求机会 有利于大才大德的是出世",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
@@ -1182,7 +1182,7 @@ export function answers(guaYao) {
         yao: "九三",
         xiaoXiang: "终日乾乾, 反复道也.",
         origin: "君子终日乾乾, 夕惕若; 厉, 无咎.",
-        meaning: "龙虽处境艰难 但坚持不懈 不断努力 即使遇到危险 也可避祸.",
+        meaning: "龙虽处境艰难 但坚持不懈 不断努力 即使遇到危险 也可避祸",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
@@ -1199,7 +1199,7 @@ export function answers(guaYao) {
         yao: "九四",
         xiaoXiang: "或跃在渊, 进无咎也.",
         origin: "或跃在渊, 无咎.",
-        meaning: "龙跳进深渊 伺机而动 没有灾难 时而上跃 时而潜退.",
+        meaning: "龙跳进深渊 伺机而动 没有灾难 时而上跃 时而潜退",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
@@ -1216,7 +1216,7 @@ export function answers(guaYao) {
         yao: "九五",
         xiaoXiang: "飞龙在天, 大人造也.",
         origin: "飞龙在天, 利见大人.",
-        meaning: "龙在天空中飞 大有所为.",
+        meaning: "龙在天空中飞 大有所为",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
@@ -1233,7 +1233,7 @@ export function answers(guaYao) {
         yao: "上九",
         xiaoXiang: "亢龙有悔, 盈不可久也.",
         origin: "亢龙有悔.",
-        meaning: "升腾到极限的龙 会有灾祸之困.",
+        meaning: "升腾到极限的龙 会有灾祸之困",
         videoUrls: [
           "https://www.youtube.com/embed/gs3XPD3JmEg",
           "https://www.youtube.com/embed/IP_4M26Se2Q",
@@ -1251,7 +1251,7 @@ export function answers(guaYao) {
         yao: "初六",
         xiaoXiang: "履霜坚冰, 阴始凝也. 驯致其道, 至坚冰也.",
         origin: "履霜, 坚冰至.",
-        meaning: "阴冷天气逐渐形成 要遵循规律向前推进 寒冬将至.",
+        meaning: "阴冷天气逐渐形成 要遵循规律向前推进 寒冬将至",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
         references: [
           "http://ly.yishihui.net/12843.htm",
@@ -1266,7 +1266,7 @@ export function answers(guaYao) {
         yao: "六二",
         xiaoXiang: "六二之动, 直以方也. 不习, 无不利, 地道光也.",
         origin: "直, 方, 大, 不习无不利.",
-        meaning: "具有一定美德 行事都是有利的.",
+        meaning: "具有一定美德 行事都是有利的",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
         references: [
           "http://ly.yishihui.net/12841.htm",
@@ -1423,7 +1423,7 @@ export function answers(guaYao) {
         daXiang: "亨. 匪我求童蒙, 童蒙求我. 初噬告, 再三渎, 渎则不告. 利贞.",
         yao: "初六",
         xiaoXiang: "利用刑人, 以正法也.",
-        origin: "发蒙, 利用刑人, 用说桎梏. 以往, 吝.",
+        origin: "发蒙, 利用刑人, 用说桎梏; 以往吝.",
         meaning:
           "愚昧的初期 有利于用刑法惩治坏人 并且给冤屈者脱去枷锁 如果不专心学习去做事 将会带来困境",
         videoUrls: ["https://www.youtube.com/embed/5Z-fmmk9V5c"],
@@ -1431,7 +1431,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/12867.htm",
           "https://www.guoyi360.com/64gua04/xj/965.html",
         ],
-      }; // @TODO
+      };
     case "蒙九二":
       return {
         gua: "蒙",
@@ -1439,7 +1439,7 @@ export function answers(guaYao) {
         yao: "九二",
         xiaoXiang: "子克家, 刚柔接也.",
         origin: "包蒙吉. 纳妇吉. 子克家.",
-        meaning: "包容愚昧 和 娶妻 吉祥 儿子可以持家了",
+        meaning: "包容愚昧 娶妻吉祥 儿子可以持家了",
         videoUrls: ["https://www.youtube.com/embed/5Z-fmmk9V5c"],
         references: ["http://ly.yishihui.net/12865.htm"],
       };
@@ -1648,7 +1648,7 @@ export function answers(guaYao) {
         yao: "九五",
         xiaoXiang: "讼, 元吉, 以中正也.",
         origin: "讼, 元吉.",
-        meaning: "官司得到了公正的判决 吉祥",
+        meaning: "官司得到了公正的判决 最好的吉祥",
         videoUrls: ["https://www.youtube.com/embed/PyzmelpqTsQ"],
         references: [
           "http://ly.yishihui.net/12927.htm",
@@ -1662,13 +1662,13 @@ export function answers(guaYao) {
         yao: "上九",
         xiaoXiang: "以讼受福, 亦不足敬也.",
         origin: "或锡之鞶带, 终朝三褫之.",
-        meaning: "得到官位 但会多次失去 建议停止诉讼 议和",
+        meaning: "得到官位 但一天之内会多次失去",
         videoUrls: ["https://www.youtube.com/embed/PyzmelpqTsQ"],
         references: [
           "http://ly.yishihui.net/12923.htm",
           "https://www.guoyi360.com/64gua06/xj/1025.html",
         ],
-      }; // @TODO
+      };
     case "师初六":
       return {
         gua: "师",
@@ -1789,13 +1789,13 @@ export function answers(guaYao) {
         yao: "六三",
         xiaoXiang: "比之匪人, 不亦伤乎?",
         origin: "比之匪人.",
-        meaning: "与匪为友 交不到合适的朋友",
+        meaning: "亲附了不该亲附的人",
         videoUrls: ["https://www.youtube.com/embed/GBZas8k7mRs"],
         references: [
           "http://ly.yishihui.net/12972.htm",
           "https://www.guoyi360.com/64gua08/xj/1070.html",
         ],
-      }; // @TODO
+      };
     case "比六四":
       return {
         gua: "比",
@@ -1819,13 +1819,13 @@ export function answers(guaYao) {
           "显比之吉, 位正中也. 舍逆取顺, 失前禽也. 邑人不诫, 上使中也.",
         origin: "显比, 王用三驱, 失前禽. 邑人不诫, 吉.",
         meaning:
-          "光明正大交往 君王用三趣之礼狩猎 失去前面的禽兽 老百姓不怕君王 吉祥",
+          "光明正大交往 君王用三面包围的方式狩猎 失去前面的禽兽 老百姓不害怕君王 吉祥",
         videoUrls: ["https://www.youtube.com/embed/GBZas8k7mRs"],
         references: [
           "http://ly.yishihui.net/12968.htm",
           "https://www.guoyi360.com/64gua08/xj/1072.html",
         ],
-      }; // @TODO
+      };
     case "比上六":
       return {
         gua: "比",
@@ -2018,7 +2018,7 @@ export function answers(guaYao) {
         yao: "初九",
         xiaoXiang: "拔茅征吉, 志在外也.",
         origin: "拔茅茹, 以其汇, 征吉.",
-        meaning: "拔出的茅草离开地面向上是吉利征兆 出征吉祥",
+        meaning: "拔出的茅草离开地面向上是吉利征兆 出门远行吉祥",
         videoUrls: ["https://www.youtube.com/embed/AUl97v7Kg3Y"],
         references: [
           "http://ly.yishihui.net/13000.htm",
@@ -2101,7 +2101,7 @@ export function answers(guaYao) {
         yao: "初六",
         xiaoXiang: "拔茅贞吉, 志在君也.",
         origin: "拔茅茹, 以其汇, 贞吉, 亨.",
-        meaning: "拔出的茅草离开地面向上 吉利征兆 有为",
+        meaning: "拔出的茅草离开地面向上 吉利征兆 通达",
         videoUrls: ["https://www.youtube.com/embed/R5W3ZhXqW5A"],
         references: [
           "http://ly.yishihui.net/12945.htm",
@@ -2171,7 +2171,7 @@ export function answers(guaYao) {
         daXiang: "否之匪人, 不利君子贞, 大往小来.",
         yao: "上九",
         xiaoXiang: "否终则倾, 何可长也.",
-        origin: "倾否，先否后喜.",
+        origin: "倾否, 先否后喜.",
         meaning: "苦尽甘来 皆大欢喜",
         videoUrls: ["https://www.youtube.com/embed/R5W3ZhXqW5A"],
         references: [
@@ -2299,13 +2299,13 @@ export function answers(guaYao) {
         yao: "九三",
         xiaoXiang: "公用亨于天子, 小人害也.",
         origin: "公用亨于天子, 小人弗克.",
-        meaning: "公候按时向天子进贡 小人做不到这一点",
+        meaning: "君王宴请公侯 小人不可以参与",
         videoUrls: ["https://www.youtube.com/embed/r4LmwhY5RQY"],
         references: [
           "http://ly.yishihui.net/13371.htm",
           "https://www.guoyi360.com/64gua14/xj/2508.html",
         ],
-      }; // @TODO
+      };
     case "大有九四":
       return {
         gua: "大有",
@@ -2493,7 +2493,7 @@ export function answers(guaYao) {
         xiaoXiang: "冥豫在上, 何可长也?",
         origin: "冥豫, 成有渝, 无咎.",
         meaning:
-          "已处在天昏地暗的局面 去沉溺于寻欢作乐 十分危险， 若改弦更张 可避免灾祸",
+          "已处在天昏地暗的局面 去沉溺于寻欢作乐 十分危险 若改弦更张 可避免灾祸",
         videoUrls: ["https://www.youtube.com/embed/hEwqpStCXpA"],
         references: [
           "http://ly.yishihui.net/13323.htm",
@@ -2507,13 +2507,13 @@ export function answers(guaYao) {
         yao: "初九",
         xiaoXiang: "官有渝, 从正吉也. 出门交有功, 不失也.",
         origin: "官有渝, 贞吉. 出门交有功.",
-        meaning: "官位有变动 利于正固 吉祥 出门交友不会有过失",
+        meaning: "官位有变动 正固吉祥 出门交友不会有过失",
         videoUrls: ["https://www.youtube.com/embed/scD68gSpPvQ"],
         references: [
           "http://ly.yishihui.net/13321.htm",
           "https://www.guoyi360.com/64gua17/xj/2650.html",
         ],
-      }; // @TODO
+      };
     case "随六二":
       return {
         gua: "随",
@@ -2578,13 +2578,13 @@ export function answers(guaYao) {
         yao: "上六",
         xiaoXiang: "拘系之, 上穷也.",
         origin: "拘系之, 乃从维之. 王用亨于西山.",
-        meaning: "先拘押起来 后又捆绑起来 成为君王祭祀在西山的牺牲品",
+        meaning: "先拘押起来 后又捆绑起来 成为君王在西山祭祀的牺牲品",
         videoUrls: ["https://www.youtube.com/embed/scD68gSpPvQ"],
         references: [
           "http://ly.yishihui.net/13311.htm",
           "https://www.guoyi360.com/64gua17/xj/2655.html",
         ],
-      }; // @TODO
+      };
     case "蛊初六":
       return {
         gua: "蛊",
@@ -2613,7 +2613,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/13307.htm",
           "https://www.guoyi360.com/64gua18/xj/2698.html",
         ],
-      }; // @TODO
+      };
     case "蛊九三":
       return {
         gua: "蛊",
@@ -2663,13 +2663,13 @@ export function answers(guaYao) {
         yao: "上九",
         xiaoXiang: "不事王侯, 志可则也.",
         origin: "不事王侯, 高尚其事.",
-        meaning: "不侍奉王侯 专心自己的领域是高尚的",
+        meaning: "不侍奉王侯 专注于自己的事业",
         videoUrls: ["https://www.youtube.com/embed/hmqa9BywpfM"],
         references: [
           "http://ly.yishihui.net/13287.htm",
           "https://www.guoyi360.com/64gua18/xj/2702.html",
         ],
-      }; // @TODO
+      };
     case "临初九":
       return {
         gua: "临",
@@ -2705,13 +2705,13 @@ export function answers(guaYao) {
         yao: "六三",
         xiaoXiang: "甘临, 位不当也. 既忧之, 咎不长也.",
         origin: "甘临, 无攸利. 即忧之, 无咎.",
-        meaning: "居高临下 靠甜言蜜语督导 无利 已然知晓自己的过失 无灾祸",
+        meaning: "用钳制的政策治理民众 无益处 已然知晓自己的过失 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/XBgf37CIkk0"],
         references: [
           "http://ly.yishihui.net/13281.htm",
           "https://www.guoyi360.com/64gua19/xj/2755.html",
         ],
-      }; // @TODO
+      };
     case "临六四":
       return {
         gua: "临",
@@ -2823,7 +2823,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/13265.htm",
           "https://www.guoyi360.com/64gua20/xj/2845.html",
         ],
-      }; // @TODO
+      };
     case "观上九":
       return {
         gua: "观",
@@ -2887,14 +2887,13 @@ export function answers(guaYao) {
         yao: "九四",
         xiaoXiang: "利艰贞吉, 未光也.",
         origin: "噬干胏, 得金矢. 利艰贞, 吉.",
-        meaning:
-          "施用刑罚惩戒犯人 像咬带骨的肉一样困难 具有铜箭一样的刚正之气 有利于在艰难的时候正固 可获吉祥",
+        meaning: "啃吃骨头 发现骨头中有金属箭头 卜问艰难之事 结果是吉利的",
         videoUrls: ["https://www.youtube.com/embed/nVtcCwAT8-g"],
         references: [
           "http://ly.yishihui.net/13248.htm",
           "https://www.guoyi360.com/64gua21/xj/2913.html",
         ],
-      }; // @TODO
+      };
     case "噬嗑六五":
       return {
         gua: "噬嗑",
@@ -2944,13 +2943,13 @@ export function answers(guaYao) {
         yao: "六二",
         xiaoXiang: "贲其须, 与上兴也.",
         origin: "贲其须.",
-        meaning: "修饰胡须 为了与上司一起",
+        meaning: "修饰自己的胡须 帮助君王振兴国家",
         videoUrls: ["https://www.youtube.com/embed/YDdFOCjnAWE"],
         references: [
           "http://ly.yishihui.net/13235.htm",
           "https://www.guoyi360.com/64gua22/xj/3191.html",
         ],
-      }; // @TODO
+      };
     case "贲九三":
       return {
         gua: "贲",
@@ -3141,13 +3140,13 @@ export function answers(guaYao) {
         yao: "六四",
         xiaoXiang: "中行独复, 以从道也.",
         origin: "中行独复.",
-        meaning: "在行列中能独自返回",
+        meaning: "中途独自返回",
         videoUrls: ["https://www.youtube.com/embed/AT_tZwbRG3I"],
         references: [
           "http://ly.yishihui.net/13202.htm",
           "https://www.guoyi360.com/64gua24/xj/3910.html",
         ],
-      }; // @TODO
+      };
     case "复六五":
       return {
         gua: "复",
@@ -3177,7 +3176,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/13198.htm",
           "https://www.guoyi360.com/64gua24/xj/3912.html",
         ],
-      }; // @TODO
+      };
     case "无妄初九":
       return {
         gua: "无妄",
@@ -3185,7 +3184,7 @@ export function answers(guaYao) {
         yao: "初九",
         xiaoXiang: "无妄之往, 得志也.",
         origin: "无妄, 往吉.",
-        meaning: "不妄为 按照自己的心志 所行 吉祥",
+        meaning: "不妄为 按照自己的心志 前行吉祥",
         videoUrls: ["https://www.youtube.com/embed/x1hz0zTk_0g"],
         references: [
           "http://ly.yishihui.net/13196.htm",
@@ -3316,7 +3315,7 @@ export function answers(guaYao) {
         meaning: "是烈性的猪长出牙齿 可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/Td5fwwQ7120"],
         references: ["https://www.guoyi360.com/64gua26/xj/5319.html"],
-      }; // @TODO
+      };
     case "大畜上九":
       return {
         gua: "大畜",
@@ -3335,13 +3334,13 @@ export function answers(guaYao) {
         yao: "初九",
         xiaoXiang: "观我朵颐, 亦不足贵也.",
         origin: "舍尔灵龟, 观我朵颐, 凶.",
-        meaning: "扔下属于你的灵龟 看我吃东西 有凶险",
+        meaning: "自己储藏着大量的财宝 还要羡嫉人家的财物 必遭凶险之事",
         videoUrls: ["https://www.youtube.com/embed/ETMTxDJiFR4"],
         references: [
           "http://ly.yishihui.net/13849.htm",
           "https://www.guoyi360.com/64gua27/xj/5323.html",
         ],
-      }; // @TODO
+      };
     case "颐六二":
       return {
         gua: "颐",
@@ -3349,13 +3348,14 @@ export function answers(guaYao) {
         yao: "六二",
         xiaoXiang: "六二征凶, 行失类也.",
         origin: "颠颐, 拂经; 于丘颐, 征凶.",
-        meaning: "颠倒颐精养气之道 像高处寻求颐养 兴兵作战会有风险",
+        meaning:
+          "为了糊口 就得在山坡上开荒种地 为了生计而去抢劫别人 这是凶险之事",
         videoUrls: ["https://www.youtube.com/embed/ETMTxDJiFR4"],
         references: [
           "http://ly.yishihui.net/13851.htm",
           "https://www.guoyi360.com/64gua27/xj/5324.html",
         ],
-      }; // @TODO
+      };
     case "颐六三":
       return {
         gua: "颐",
@@ -3378,13 +3378,13 @@ export function answers(guaYao) {
         xiaoXiang: "颠颐之吉, 上施光也.",
         origin: "颠颐, 吉. 虎视眈眈, 其欲逐逐, 无咎.",
         meaning:
-          "颠倒颐精养气之道 可获吉祥 像老虎一样凝视 急欲不断的追逐 无灾祸",
+          "所求不过糊口 害人之心不可存 吉利 虎视眈眈 防人之心不可无 这样就可以安享天年 悠然自得 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/ETMTxDJiFR4"],
         references: [
           "http://ly.yishihui.net/13856.htm",
           "https://www.guoyi360.com/64gua27/xj/5326.html",
         ],
-      }; // @TODO
+      };
     case "颐六五":
       return {
         gua: "颐",
@@ -3406,13 +3406,13 @@ export function answers(guaYao) {
         yao: "上九",
         xiaoXiang: "由颐厉吉, 大有庆也.",
         origin: "由颐, 厉吉. 利涉大川.",
-        meaning: "鲸油颐精养气之道 虽然艰难 可获吉祥 利于渡过大江大河",
+        meaning: "遵循生活正道 先艰难而终吉利 筮遇此爻 有利于涉水渡河",
         videoUrls: ["https://www.youtube.com/embed/ETMTxDJiFR4"],
         references: [
           "http://ly.yishihui.net/13860.htm",
           "https://www.guoyi360.com/64gua27/xj/5328.html",
         ],
-      }; // @TODO
+      };
     case "大过初六":
       return {
         gua: "大过",
@@ -3547,7 +3547,7 @@ export function answers(guaYao) {
         yao: "六四",
         xiaoXiang: "樽酒簋贰, 刚柔际也.",
         origin: "樽酒簋贰, 用缶, 纳约自牖, 终无咎.",
-        meaning: "将一杯薄酒 两筐淡食 用瓦罐装起来 用窗口收到信约 最后无灾祸",
+        meaning: "将一杯薄酒 两筐淡食 用瓦罐装起来 用窗口送进去出 最后无灾祸",
         videoUrls: ["https://www.youtube.com/embed/NocLlveOsS0"],
         references: [
           "http://ly.yishihui.net/13880.htm",
@@ -3567,7 +3567,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/13882.htm",
           "https://www.guoyi360.com/64gua29/xj/5343.html",
         ],
-      }; // @TODO
+      };
     case "坎上六":
       return {
         gua: "坎",
@@ -3638,7 +3638,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/13934.htm",
           "https://www.guoyi360.com/64gua30/xj/6061.html",
         ],
-      }; // @TODO
+      };
     case "离六五":
       return {
         gua: "离",
@@ -3646,13 +3646,13 @@ export function answers(guaYao) {
         yao: "六五",
         xiaoXiang: "六五之吉, 离王公也.",
         origin: "出涕沱若, 戚嗟若, 吉.",
-        meaning: "眼泪涌出的样子 悲戚哀叹的样子 可获吉祥",
+        meaning: "眼泪涌出的样子 悲戚哀叹的样子 然后可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/oKcxqSrz9r8"],
         references: [
           "http://ly.yishihui.net/13936.htm",
           "https://www.guoyi360.com/64gua30/xj/6062.html",
         ],
-      }; // @TODO
+      };
     case "离上九":
       return {
         gua: "离",
@@ -3661,13 +3661,13 @@ export function answers(guaYao) {
         xiaoXiang: "王用出征, 以正邦也.",
         origin: "王用出征, 有嘉. 折首, 获匪其丑, 无咎.",
         meaning:
-          "君王用贤人出兵征伐 对能够斩杀敌方首领的人给予嘉奖 不复活一般的随从 无灾祸",
+          "君王用贤人出兵征伐 对能够斩杀敌方首领的人给予嘉奖 不俘获一般的随从 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/oKcxqSrz9r8"],
         references: [
           "http://ly.yishihui.net/13938.htm",
           "https://www.guoyi360.com/64gua30/xj/6063.html",
         ],
-      }; // @TODO
+      };
     case "咸初六":
       return {
         gua: "咸",
@@ -3928,13 +3928,13 @@ export function answers(guaYao) {
         yao: "初九",
         xiaoXiang: "壮于趾, 其孚穷也.",
         origin: "壮于趾, 征凶, 有孚.",
-        meaning: "脚趾变粗壮 出兵征伐 有凶险 需要诚信",
+        meaning: "脚趾变粗壮 出兵征伐 有凶险 需要有诚信",
         videoUrls: ["https://www.youtube.com/embed/McNgvOh7zv0"],
         references: [
           "http://ly.yishihui.net/14015.htm",
           "https://www.guoyi360.com/64gua34/xj/5420.html",
         ],
-      }; // @TODO
+      };
     case "大壮九二":
       return {
         gua: "大壮",
@@ -3971,13 +3971,13 @@ export function answers(guaYao) {
         xiaoXiang: "藩决不羸, 尚往也.",
         origin: "贞吉, 悔亡; 藩决不羸, 壮于大舆之輹.",
         meaning:
-          "正固吉祥 忧悔消除 藩篱被冲破 羊角被解脱出来 像大车的车轮一样结实",
+          "正固吉祥 忧悔消除 因为公羊冲决篱笆 摆脱了拘系 但又被车轮撞伤 不能乱冲乱撞了",
         videoUrls: ["https://www.youtube.com/embed/McNgvOh7zv0"],
         references: [
           "http://ly.yishihui.net/14021.htm",
           "https://www.guoyi360.com/64gua34/xj/5423.html",
         ],
-      }; // @TODO
+      };
     case "大壮六五":
       return {
         gua: "大壮",
@@ -4054,7 +4054,7 @@ export function answers(guaYao) {
         daXiang: "康侯用锡马蕃庶, 昼日三接.",
         yao: "九四",
         xiaoXiang: "硕鼠贞厉, 位不当也.",
-        origin: "晋如鼫鼠，贞厉.",
+        origin: "晋如鼫鼠, 贞厉.",
         meaning: "今生如同 老鼠一样 即贪婪有没有一技之长 正固有危险",
         videoUrls: ["https://www.youtube.com/embed/swOm6zw8WeA"],
         references: [
