@@ -383,7 +383,7 @@ export function answer(guaYao) {
     case "坤初六":
       return "阴冷天气逐渐形成 要遵循规律向前推进 寒冬将至";
     case "坤六二":
-      return "具有一定美德 行事都是有利的"; // @TODO
+      return "有了 正直 端方 大气 的品德 即使不学习也没有什么坏处 说明美德充沛 行为不必有疑虑"; // @TODO
     case "坤六三":
       return "具备美好品德 可以正固 事情起初无所发展 但最后有好的结果";
     case "坤六四":
@@ -391,7 +391,7 @@ export function answer(guaYao) {
     case "坤六五":
       return "穿着黄色的裙裳 大吉大利";
     case "坤上六":
-      return "人走到了群困的绝境 有灾祸"; // @TODO
+      return "龙在野外发生战斗 天玄地黄 龙血在天空中是黑色在地上的血为黄色"; // @TODO
     case "屯初九":
       return "虽然徘徊难进 但志行贞正 可坚持以退为进的策略";
     case "屯六二":
@@ -415,7 +415,7 @@ export function answer(guaYao) {
     case "蒙六五":
       return "愚昧无知的人接受启发 吉兆";
     case "蒙上九":
-      return "惊醒愚昧无知的人 不宜行为过当 不利于做贼寇 有利于防御贼寇"; // @TODO
+      return "打击愚昧无知的人 不利于做贼寇 有利于防御贼寇"; // @TODO
     case "需初九":
       return "在郊野中等待 适宜持之以恒 可避免灾祸";
     case "需九二":
@@ -495,7 +495,7 @@ export function answer(guaYao) {
     case "泰九三":
       return "处境艰难 正固 没有灾祸 不要怕不能取信于人 在饮食方面有口福之吉";
     case "泰六四":
-      return "像小鸟一样翩翩起舞 因不与邻居共享富有 互相不加戒备 以诚相待"; // @TODO
+      return "轻松而不靠财富就能得到邻居的支持 由于诚信而不加戒备"; // @TODO
     case "泰六五":
       return "帝乙嫁女 因此而获得福泽 最为吉祥";
     case "泰上六":
@@ -503,7 +503,7 @@ export function answer(guaYao) {
     case "否初六":
       return "拔出的茅草离开地面向上 吉利征兆 通达";
     case "否六二":
-      return "被包容并顺从承受尊者 小人可获吉祥 君子则需要躲避 通达"; // @TODO
+      return "包容成灾 小人吉祥 君子闭塞 通达"; // @TODO
     case "否六三":
       return "被包容而居于下位 最终招致羞辱";
     case "否九四":
@@ -549,7 +549,7 @@ export function answer(guaYao) {
     case "谦上六":
       return "谦虚之名传扬外界 利于兴兵征伐 占领新的领地";
     case "豫初六":
-      return "因喜悦而闻名 有凶险"; // @TODO
+      return "响应愉悦的态度 有凶险"; // @TODO
     case "豫六二":
       return "德行坚贞胜过磐石 不浪费生命 正固吉祥"; // @TODO
     case "豫六三":
@@ -601,7 +601,7 @@ export function answer(guaYao) {
     case "观六二":
       return "暗中窥探观察 适宜女子正固";
     case "观六三":
-      return "观察别人对自己的反应 查醒自己的言行 审时度势 小心谨慎的进退"; // @TODO
+      return "查醒自己的言行 审时度势 小心谨慎的决定进退"; // @TODO
     case "观六四":
       return "观察一个国家的风土人情 适宜用宾客之力朝见君王";
     case "观九五":
@@ -711,7 +711,7 @@ export function answer(guaYao) {
     case "坎六三":
       return "来来回回都处于险难之中 陷穴既险也深 一旦落入陷阱之中 暂时无法施展才能";
     case "坎六四":
-      return "将一杯薄酒 两筐淡食 用瓦罐装起来 用窗口送进去出 最后无灾祸"; // @TODO
+      return "将一杯薄酒 两盘供品 用瓦罐装起来 从窗户送进简约的祭品 最后无灾祸"; // @TODO
     case "坎九五":
       return "陷穴尚未满溢 到需要稳定时则艰难自平 无灾祸"; // @TODO
     case "坎上六":
@@ -769,7 +769,7 @@ export function answer(guaYao) {
     case "大壮九二":
       return "正固吉祥";
     case "大壮九三":
-      return "小人靠力量 君子不这样 正固有危险 公山羊用角顶篱笆 角被缠住"; // @TODO
+      return "小人靠力量 君子蔑视蛮力 正固有危险 公山羊用角顶篱笆 角被缠住"; // @TODO
     case "大壮九四":
       return "正固吉祥 忧悔消除 因为公羊冲决篱笆 摆脱了拘系 但又被车轮撞伤 不能乱冲乱撞了"; // @TODO
     case "大壮六五":
@@ -983,7 +983,7 @@ export function answer(guaYao) {
     case "艮初六":
       return "抑制脚趾使其难以起步 无灾祸 有利于占问长久之事";
     case "艮六二":
-      return "抑制小腿肚运动 无法举步追赶应该追随的人 心中不能舒畅"; // @TODO
+      return "抑制小腿肚运动 既然无法拯救别人 只好随别人行动 心中不能舒畅"; // @TODO
     case "艮九三":
       return "抑制腰部运动 以至于撕裂了夹脊肉 凶险就像烈火烧灼 让人心急如焚";
     case "艮六四":
@@ -1103,15 +1103,15 @@ export function answer(guaYao) {
     case "小过初六":
       return "飞鸟带来了危险的兆头";
     case "小过六二":
-      return "越过祖父 遇见祖母 不到君王那里 而与其臣子接触 无灾祸"; // @TODO
+      return "越过祖父 遇见祖母 没有赶上君王那里 而与其臣子接触 无灾祸"; // @TODO
     case "小过九三":
       return "不严加防范 会有被杀害的危险 有凶险";
     case "小过九四":
-      return "无灾祸 不要过分求进而强和他人遇合 有所行动会有危险 必须加以警惕 占问长久的事情 筮得此爻 不宜施行"; // @TODO
+      return "无灾祸 不要越过也会遇到 有所行动会有危险 必须加以警惕 不可以有所作为 长久保持正固"; // @TODO
     case "小过六五":
       return "乌云密布却没有下雨 云气从西边郊区升起 王公狩猎射中了一只飞鸟 追到洞穴里才捕捉到";
     case "小过上六":
-      return "不要过分求进而强和他人遇合 就像飞鸟容易被射中 捕获 非常凶险 这就是灾难";
+      return "不要越过也会遇到 就像飞鸟容易被射中 捕获 非常凶险 这就是灾难";
     case "既济初九":
       return "牵引着车轮前行 水弄湿了车尾 无灾祸";
     case "既济六二":
@@ -1265,14 +1265,16 @@ export function answers(guaYao) {
           "元亨, 利牝马之贞. 君子有攸往, 先迷后得主. 利西南得朋, 东北丧朋. 安贞吉.",
         yao: "六二",
         xiaoXiang: "六二之动, 直以方也. 不习, 无不利, 地道光也.",
-        origin: "直, 方, 大, 不习无不利.",
-        meaning: "具有一定美德 行事都是有利的",
+        origin: "直方大, 不习, 无不利.",
+        meaning:
+          "有了 正直 端方 大气 的品德 即使不学习也没有什么坏处 说明美德充沛 行为不必有疑虑",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
         references: [
           "http://ly.yishihui.net/12841.htm",
           "https://www.guoyi360.com/64gua02/xj/889.html",
+          "https://www.zhihu.com/question/265662585",
         ],
-      }; // @TODO
+      };
     case "坤六三":
       return {
         gua: "坤",
@@ -1326,13 +1328,14 @@ export function answers(guaYao) {
         yao: "上六",
         xiaoXiang: "龙战于野, 其道穷也.",
         origin: "龙战于野, 其血玄黄.",
-        meaning: "人走到了群困的绝境 有灾祸",
+        meaning: "龙在野外发生战斗 天玄地黄 龙血在天空中是黑色在地上的血为黄色",
         videoUrls: ["https://www.youtube.com/embed/q9XjjmQo0iQ"],
         references: [
           "http://ly.yishihui.net/12833.htm",
           "https://www.guoyi360.com/64gua02/xj/893.html",
+          "https://baike.baidu.com/item/%E5%A4%A9%E5%9C%B0%E7%8E%84%E9%BB%84/45289",
         ],
-      }; // @TODO
+      };
     case "屯初九":
       return {
         gua: "屯",
@@ -1493,13 +1496,13 @@ export function answers(guaYao) {
         yao: "上九",
         xiaoXiang: "利用御寇, 上下顺也.",
         origin: "击蒙. 不利为寇, 利御寇.",
-        meaning: "惊醒愚昧无知的人 不宜行为过当 不利于做贼寇 有利于防御贼寇",
+        meaning: "打击愚昧无知的人 不利于做贼寇 有利于防御贼寇",
         videoUrls: ["https://www.youtube.com/embed/5Z-fmmk9V5c"],
         references: [
           "http://ly.yishihui.net/12857.htm",
           "https://www.guoyi360.com/64gua04/xj/970.html",
         ],
-      }; // @TODO
+      };
     case "需初九":
       return {
         gua: "需",
@@ -2059,13 +2062,13 @@ export function answers(guaYao) {
         yao: "六四",
         xiaoXiang: "翩翩不富, 皆失实也. 不戒以孚, 中心愿也.",
         origin: "翩翩不富, 以其邻, 不戒以孚.",
-        meaning: "像小鸟一样翩翩起舞 因不与邻居共享富有 互相不加戒备 以诚相待",
+        meaning: "轻松而不靠财富就能得到邻居的支持 由于诚信而不加戒备",
         videoUrls: ["https://www.youtube.com/embed/AUl97v7Kg3Y"],
         references: [
           "http://ly.yishihui.net/12994.htm",
           "https://www.guoyi360.com/64gua11/xj/1171.html",
         ],
-      }; // @TODO
+      };
     case "泰六五":
       return {
         gua: "泰",
@@ -2115,13 +2118,13 @@ export function answers(guaYao) {
         yao: "六二",
         xiaoXiang: "大人否, 亨, 不乱群也.",
         origin: "包承, 小人吉; 大人否, 亨.",
-        meaning: "被包容并顺从承受尊者 小人可获吉祥 君子则需要躲避 通达",
+        meaning: "包容成灾 小人吉祥 君子闭塞 通达",
         videoUrls: ["https://www.youtube.com/embed/R5W3ZhXqW5A"],
         references: [
           "http://ly.yishihui.net/12943.htm",
           "https://www.guoyi360.com/64gua12/xj/2458.html",
         ],
-      }; // @TODO
+      };
     case "否六三":
       return {
         gua: "否",
@@ -2421,13 +2424,13 @@ export function answers(guaYao) {
         yao: "初六",
         xiaoXiang: "初六鸣豫, 志穷凶也.",
         origin: "鸣豫, 凶",
-        meaning: "因喜悦而闻名 有凶险",
+        meaning: "响应愉悦的态度 有凶险",
         videoUrls: ["https://www.youtube.com/embed/hEwqpStCXpA"],
         references: [
           "http://ly.yishihui.net/13331.htm",
           "https://www.guoyi360.com/64gua16/xj/2566.html",
         ],
-      }; // @TODO
+      };
     case "豫六二":
       return {
         gua: "豫",
@@ -2441,7 +2444,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/13329.htm",
           "https://www.guoyi360.com/64gua16/xj/2567.html",
         ],
-      }; // @TODO
+      };
     case "豫六三":
       return {
         gua: "豫",
@@ -2455,7 +2458,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/13333.htm",
           "https://www.guoyi360.com/64gua16/xj/2568.html",
         ],
-      }; // @TODO
+      };
     case "豫九四":
       return {
         gua: "豫",
@@ -2789,13 +2792,13 @@ export function answers(guaYao) {
         yao: "六三",
         xiaoXiang: "观我生进退, 未失道也.",
         origin: "观我生, 进退.",
-        meaning: "观察别人对自己的反应 查醒自己的言行 审时度势 小心谨慎的进退",
+        meaning: "查醒自己的言行 审时度势 小心谨慎的决定进退",
         videoUrls: ["https://www.youtube.com/embed/Z_b6ZuOwjbQ"],
         references: [
           "http://ly.yishihui.net/13269.htm",
           "https://www.guoyi360.com/64gua20/xj/2843.html",
         ],
-      }; // @TODO
+      };
     case "观六四":
       return {
         gua: "观",
@@ -3547,13 +3550,14 @@ export function answers(guaYao) {
         yao: "六四",
         xiaoXiang: "樽酒簋贰, 刚柔际也.",
         origin: "樽酒簋贰, 用缶, 纳约自牖, 终无咎.",
-        meaning: "将一杯薄酒 两筐淡食 用瓦罐装起来 用窗口送进去出 最后无灾祸",
+        meaning:
+          "将一杯薄酒 两盘供品 用瓦罐装起来 从窗户送进简约的祭品 最后无灾祸",
         videoUrls: ["https://www.youtube.com/embed/NocLlveOsS0"],
         references: [
           "http://ly.yishihui.net/13880.htm",
           "https://www.guoyi360.com/64gua29/xj/5342.html",
         ],
-      }; // @TODO
+      };
     case "坎九五":
       return {
         gua: "坎",
@@ -3956,13 +3960,13 @@ export function answers(guaYao) {
         yao: "九三",
         xiaoXiang: "小人用壮, 君子罔也.",
         origin: "小人用壮，君子用罔，贞厉。羝羊触藩，羸其角.",
-        meaning: "小人靠力量 君子不这样 正固有危险 公山羊用角顶篱笆 角被缠住",
+        meaning: "小人靠力量 君子蔑视蛮力 正固有危险 公山羊用角顶篱笆 角被缠住",
         videoUrls: ["https://www.youtube.com/embed/McNgvOh7zv0"],
         references: [
           "http://ly.yishihui.net/14019.htm",
           "https://www.guoyi360.com/64gua34/xj/5422.html",
         ],
-      }; // @TODO
+      };
     case "大壮九四":
       return {
         gua: "大壮",
@@ -5488,13 +5492,13 @@ export function answers(guaYao) {
         yao: "六二",
         xiaoXiang: "不拯其随, 未退听也.",
         origin: "艮其腓, 不拯其随, 其心不快.",
-        meaning: "抑制小腿肚运动 无法举步追赶应该追随的人 心中不能舒畅",
+        meaning: "抑制小腿肚运动 既然无法拯救别人 只好随别人行动 心中不能舒畅",
         videoUrls: ["https://www.youtube.com/embed/6Tq3qdjdrX8"],
         references: [
           "http://ly.yishihui.net/14574.htm",
           "https://www.guoyi360.com/64gua52/xj/5730.html",
         ],
-      }; // @TODO
+      };
     case "艮九三":
       return {
         gua: "艮",
@@ -6323,13 +6327,13 @@ export function answers(guaYao) {
         yao: "六二",
         xiaoXiang: "不及其君, 臣不可过也.",
         origin: "过其祖, 遇其妣. 不及其君, 遇其臣, 无咎.",
-        meaning: "越过祖父 遇见祖母 不到君王那里 而与其臣子接触 无灾祸",
+        meaning: "越过祖父 遇见祖母 没有赶上君王那里 而与其臣子接触 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/HtqPzOC6Xwc"],
         references: [
           "http://ly.yishihui.net/15112.htm",
           "https://www.guoyi360.com/64gua62/xj/6031.html",
         ],
-      }; // @TODO
+      };
     case "小过九三":
       return {
         gua: "小过",
@@ -6352,13 +6356,13 @@ export function answers(guaYao) {
         xiaoXiang: "弗过遇之, 位不当也. 往厉必戒, 终不可长也.",
         origin: "无咎, 弗过遇之, 往厉必戒. 勿用永贞.",
         meaning:
-          "无灾祸 不要过分求进而强和他人遇合 有所行动会有危险 必须加以警惕 占问长久的事情 筮得此爻 不宜施行",
+          "无灾祸 不要越过也会遇到 有所行动会有危险 必须加以警惕 不可以有所作为 长久保持正固",
         videoUrls: ["https://www.youtube.com/embed/HtqPzOC6Xwc"],
         references: [
           "http://ly.yishihui.net/15116.htm",
           "https://www.guoyi360.com/64gua62/xj/6033.html",
         ],
-      }; // @TODO
+      };
     case "小过六五":
       return {
         gua: "小过",
@@ -6381,8 +6385,7 @@ export function answers(guaYao) {
         yao: "上六",
         xiaoXiang: "弗遇过之, 已亢也.",
         origin: "弗遇过之, 飞鸟离之, 凶. 是谓灾眚.",
-        meaning:
-          "不要过分求进而强和他人遇合 就像飞鸟容易被射中 捕获 非常凶险 这就是灾难",
+        meaning: "不要越过也会遇到 就像飞鸟容易被射中 捕获 非常凶险 这就是灾难",
         videoUrls: ["https://www.youtube.com/embed/HtqPzOC6Xwc"],
         references: [
           "http://ly.yishihui.net/15120.htm",

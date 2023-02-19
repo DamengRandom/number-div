@@ -25,7 +25,6 @@ yarn dev
 6).
 
 <!-- ### Ideas
-1). fix todos
-2). validate each 384 yao ci data (including 'biao dian' check)
-3). dispaly them all
+1). add more video references
+2). add more article references
  -->
