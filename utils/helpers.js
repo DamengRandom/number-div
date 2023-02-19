@@ -727,7 +727,7 @@ export function answer(guaYao) {
     case "离六五":
       return "眼泪涌出的样子 悲戚哀叹的样子 然后可获吉祥"; // @TODO
     case "离上九":
-      return "君王用贤人出兵征伐 对能够斩杀敌方首领的人给予嘉奖 不俘获一般的随从 无灾祸"; // @TODO
+      return "君王用贤人出门远行 对能够斩杀敌方首领的人给予嘉奖 不俘获一般的随从 无灾祸"; // @TODO
     case "咸初六":
       return "感应发生在脚上的大拇指 因势而动";
     case "咸六二":
@@ -765,7 +765,7 @@ export function answer(guaYao) {
     case "遁上九":
       return "远走高飞 完全退避 无所不利";
     case "大壮初九":
-      return "脚趾变粗壮 出兵征伐 有凶险 需要有诚信"; // @TODO
+      return "脚趾变粗壮 出门远行 有凶险 需要有诚信"; // @TODO
     case "大壮九二":
       return "正固吉祥";
     case "大壮九三":
@@ -789,15 +789,15 @@ export function answer(guaYao) {
     case "晋上九":
       return "晋升到了顶点 用征讨小国而建立功勋 危中有吉 无灾祸 正固有难";
     case "明夷初九":
-      return "光明遭到损伤时 就像飞鸟低垂着翅膀 惊慌飞行 如同君子急行 三天没有吃饭 一旦有所作为 会受到主人的责备"; // @TODO
+      return "在昏暗中 就像飞鸟低垂着翅膀 惊慌飞行 君子若要退避隐藏 就是丢掉职位 三天没有吃饭 一旦有所作为 会受到主人的责备"; // @TODO
     case "明夷六二":
-      return "光明遭到损伤时 伤到左大腿 如果有良马来救 可获吉祥";
+      return "在昏暗中 伤到左大腿 如果有良马来救 可获吉祥";
     case "明夷九三":
-      return "光明遭到损伤时 在南方狩猎 获得丰厚 不可操之过急 正固"; // @TODO
+      return "在昏暗中 去南方狩猎 想获得丰厚 不可操之过急 正固"; // @TODO
     case "明夷六四":
-      return "进入近臣内侧 洞悉光明损伤的内情 走出院子"; // @TODO
+      return "进入王宫内部 洞悉昏暗的内部情况 最后离开王宫庭院"; // 薇子 离开 商纣 王
     case "明夷六五":
-      return "像箕子受难时一样 正固";
+      return "像箕子受难时一样 保持正固";
     case "明夷上六":
       return "不光明 晦暗 起初像天空中升起 最后又落到地上";
     case "家人初九":
@@ -819,7 +819,7 @@ export function answer(guaYao) {
     case "睽六三":
       return "看见大车艰难前行 驾车的牛受到牵制无法前行 驾车的人受到了 墨刑和劓刑 虽然历经磨难 但最终会有美好结局";
     case "睽九四":
-      return "因心志与众人不和而陷入孤立 但刚好遇到一位贵人 交往中以诚相待 有凶险 无灾祸"; // @TODO
+      return "乖离而孤独 但刚好遇到一位贵人 交往中以诚相待 有危险 无灾祸"; // @TODO
     case "睽六五":
       return "忧悔消除 与族人一起吃肉 前进的路上还会有什么灾祸呢";
     case "睽上九":
@@ -827,7 +827,7 @@ export function answer(guaYao) {
     case "蹇初六":
       return "有所行动 尽管行事艰难 但归来满载荣誉";
     case "蹇六二":
-      return "君王与大臣在危难中行走 他们并不是为了自己"; // @TODO
+      return "君王的臣子遇到险难 不是因为自己的缘故"; // @TODO
     case "蹇九三":
       return "在外行动会遭遇艰难 不如及早返回";
     case "蹇六四":
@@ -849,9 +849,9 @@ export function answer(guaYao) {
     case "解上六":
       return "王公用弓箭在高处射下一只大隼 并且捕获了 无往不利";
     case "损初九":
-      return "停止自己的事情 尽快帮助他人 无灾祸 要酌情量力而为"; // @TODO
+      return "停止自己的事情 尽快帮助他人 无灾祸 不过适当斟酌减损自己一部分利益就可以了"; // @TODO
     case "损九二":
-      return "有利于正固 出兵征伐有凶险 不要减少 要增加"; // @TODO
+      return "有利于正固 出门远行有凶险 不要减少 会得到增益"; // @TODO
     case "损六三":
       return "三个人一起前行 有一个人会受到伤害 一个人独行 就会遇到志同道合的朋友";
     case "损六四":
@@ -859,7 +859,7 @@ export function answer(guaYao) {
     case "损六五":
       return "有人送来价值连城的神龟 不要推辞 大吉大利";
     case "损上九":
-      return "不要减少 要增加 无灾祸 正固吉祥 适宜有所行动 会得到无私忘家的臣子"; // @TODO
+      return "不要减少 会得到增益 无灾祸 正固吉祥 适宜有所行动 会得到臣民没有自己的家"; // @TODO
     case "益初九":
       return "有利于大展宏图 大吉大利 无灾祸";
     case "益六二":
@@ -871,7 +871,7 @@ export function answer(guaYao) {
     case "益九五":
       return "心中有诚信 不用占问 就是 大吉大利 天下人一定会以仁爱之心回报我的仁爱之德";
     case "益上九":
-      return "没有得到增益 或者受到攻击 树立决心不够坚定 有凶险"; // @TODO
+      return "没有得到增益帮助 或者受到攻击 树立决心不够坚定 有凶险"; // @TODO
     case "夬初九":
       return "脚趾前部粗壮 冒然前行不会取胜 会招致灾祸";
     case "夬九二":
@@ -893,7 +893,7 @@ export function answer(guaYao) {
     case "姤九四":
       return "厨房无鱼 会引发凶险";
     case "姤九五":
-      return "用杞树萌护树下的瓜果 象征着蕴藏彰美之徳 会喜从天降"; // @TODO
+      return "用杞树萌护树下的瓜果 象征着蕴藏文采 会从天而降"; // @TODO
     case "姤上九":
       return "走入空荡的角落里 凶险 无灾祸";
     case "萃初六":
@@ -923,7 +923,7 @@ export function answer(guaYao) {
     case "困初六":
       return "困坐在树干上无法安身 只得退居幽暗的山谷里 三年不能露面";
     case "困九二":
-      return "喝醉了酒 大红祭祀衣服刚刚送来 正好用来祭祀 此时出兵征伐有凶险 无灾祸";
+      return "喝醉了酒 大红祭祀衣服刚刚送来 正好用来祭祀 此时出门远行有凶险 无灾祸";
     case "困六三":
       return "被困到乱石之中 靠着有刺的荆棘爬了出来 回到家中 看不到妻子 有凶险";
     case "困九四":
@@ -931,7 +931,7 @@ export function answer(guaYao) {
     case "困九五":
       return "使用割鼻断足刑罚来治理众人 困难是因红色祭服引起 因而就渐渐的不再穿了 有利于祭祀";
     case "困上六":
-      return "被葛藤纠缠的惶恐不安有所行动会感到后悔 应该幡然悔悟 出兵征伐 可获吉祥";
+      return "被葛藤纠缠的惶恐不安有所行动会感到后悔 应该幡然悔悟 出门远行 可获吉祥";
     case "井初六":
       return "井底污泥淤积 井水已经不能再食用 井枯树死 飞鸟再也不来栖息";
     case "井九二":
@@ -941,7 +941,7 @@ export function answer(guaYao) {
     case "井六四":
       return "修整井壁 无灾祸";
     case "井九五":
-      return "井水清澈明净 就像甘甜凉爽的泉水一样 可供饮用";
+      return "井水清澈明净就像甘甜凉爽的泉水一样 可供饮用";
     case "井上六":
       return "修整水井的事已然完成 无需再盖井口 此时心怀诚信 大吉大利";
     case "革初九":
@@ -949,17 +949,17 @@ export function answer(guaYao) {
     case "革六二":
       return "到了己日断然进行改革 出兵讨伐可获吉祥 无灾祸";
     case "革九三":
-      return "出兵征伐会有凶险 即使正固也有危险 变革要集思广益 行动时要有诚信";
+      return "出门远行会有凶险 即使正固也有危险 变革要集思广益 行动时要有诚信";
     case "革九四":
       return "忧悔消除 行动时要有诚信 改朝换代 顺天应命 可获吉祥";
     case "革九五":
-      return "有才能的人变革时气势会像老虎一样威猛 不必占卜 也能光大诚信的美德"; // @TODO
+      return "有才能的人变革时气势会像老虎一样威猛 不必占卜 也能有光大诚信的美德"; // @TODO
     case "革上六":
       return "有才能的人变革时行动会像豹子一样迅速 小人改变往日的面目 出兵讨伐会有凶险 居家守中 正固吉祥";
     case "鼎初六":
       return "大鼎翻倒 其足向上 适宜倒掉无用之物 就如同妻妾生子 其妾因子而被扶作正室 无灾祸";
     case "鼎九二":
-      return "鼎中盛满食物 容易招来敌对者的嫉妒 不能靠近我 可获吉祥"; // @TODO
+      return "鼎中盛满食物 我的对手患了疾病 所以不能靠近我 可获吉祥"; // @TODO
     case "鼎九三":
       return "鼎的耳朵被破坏了 无法被移动 鼎里的山鸡汤也喝不成了 待到阴阳调和 润雨出现才能消除悔恨 最终可获吉祥";
     case "鼎九四":
@@ -979,7 +979,7 @@ export function answer(guaYao) {
     case "震六五":
       return "雷霆震动 上下往来都有危险 但无重大损失 会有事发生";
     case "震上六":
-      return "雷霆震动 瑟瑟发抖 六神无主 出兵征伐有凶险 震动不是来自于自身而是来自于旁边的人 无灾祸 婚配会有责怪之言";
+      return "雷霆震动 瑟瑟发抖 六神无主 出门远行有凶险 震动不是来自于自身而是来自于旁边的人 无灾祸 婚配会有责怪之言";
     case "艮初六":
       return "抑制脚趾使其难以起步 无灾祸 有利于占问长久之事";
     case "艮六二":
@@ -1005,7 +1005,7 @@ export function answer(guaYao) {
     case "渐上九":
       return "鸿雁飞行渐进到了小山顶上 羽毛美丽到可以用来做仪式的上用的装饰 吉祥";
     case "归妹初九":
-      return "少女出嫁 妹妹作为从嫁做偏房 就像跛脚的人奋力前行 出兵征伐可获吉祥";
+      return "少女出嫁 妹妹作为从嫁做偏房 就像跛脚的人奋力前行 出门远行可获吉祥";
     case "归妹九二":
       return "视力不好的人勉强凝视 有利于安恬隐居之人占问";
     case "归妹六三":
@@ -1023,7 +1023,7 @@ export function answer(guaYao) {
     case "丰九三":
       return "丰厚遮掩了光明的幔帐 中午一片昏暗 此时折断了右臂 无灾祸";
     case "丰九四":
-      return "草棚遮蔽很大 中午出现满天星斗 遇到外邦的主人 吉祥"; // @TODO
+      return "草棚遮蔽很大 中午出现满天星斗 阴暗不明朗 遇到外邦的主人 吉祥"; // @TODO
     case "丰六五":
       return "迎接光明 会带来喜庆与赞誉 吉祥";
     case "丰上六":
@@ -1031,7 +1031,7 @@ export function answer(guaYao) {
     case "旅初六":
       return "外出旅行猥猥琐琐 举止多变 会招致灾祸";
     case "旅六二":
-      return "旅行的人入住客店 怀里揣着钱财 得到僮仆的诚信侍奉"; // @TODO
+      return "旅行的人入住客店 怀里揣着钱财 得到僮仆 可以正固"; // @TODO
     case "旅九三":
       return "客店失了大火 童仆也跑了 即使正固也有危险";
     case "旅九四":
@@ -1051,7 +1051,7 @@ export function answer(guaYao) {
     case "巽九五":
       return "正固吉祥 忧悔消除 无所不利 起初不顺利 但最后能畅通无阻 时间是 丁日 戊日 己日 和 辛日 壬日 癸日 吉祥"; // @TODO
     case "巽上九":
-      return "过分顺从而屈居床下 结果 失掉了 财产和利斧之助 即使正固也会有凶险"; // @TODO
+      return "谦卑恭顺到了极点而屈于床下 丧失了赖以谋生的资本 丧失了刚硬的本性 结果是凶险的"; // @TODO
     case "兑初九":
       return "平和喜悦的待人态度 有利于正固";
     case "兑九二":
@@ -1073,7 +1073,7 @@ export function answer(guaYao) {
     case "涣六四":
       return "大水冲散了众人 大吉大利 大水冲上山陵 水势汹涌 可不是日常能够想象得到的";
     case "涣九五":
-      return "像出汗一样不停的颁布君王诏命 并疏散君王聚敛的财富来救助天下百姓 无灾祸"; // @TODO
+      return "君王频繁颁布诏令 君王居中守正可安居 无灾祸"; // @TODO
     case "涣上九":
       return "大水流散 能使得忧患消除 惊惧化解 无灾祸";
     case "节初九":
@@ -1129,7 +1129,7 @@ export function answer(guaYao) {
     case "未济九二":
       return "向后拖拽车轮而放缓前进的速度 正固吉祥";
     case "未济六三":
-      return "事业未成 出兵征伐有凶险 但适宜跨越大江大河";
+      return "事业未成 出门远行有凶险 但适宜跨越大江大河";
     case "未济九四":
       return "正固吉祥 忧悔消除 兴兵讨伐鬼方 三年获胜而获得大国的封赏";
     case "未济六五":
@@ -3661,7 +3661,7 @@ export function answers(guaYao) {
         xiaoXiang: "王用出征, 以正邦也.",
         origin: "王用出征, 有嘉. 折首, 获匪其丑, 无咎.",
         meaning:
-          "君王用贤人出兵征伐 对能够斩杀敌方首领的人给予嘉奖 不俘获一般的随从 无灾祸",
+          "君王用贤人出门远行 对能够斩杀敌方首领的人给予嘉奖 不俘获一般的随从 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/oKcxqSrz9r8"],
         references: [
           "http://ly.yishihui.net/13938.htm",
@@ -3928,7 +3928,7 @@ export function answers(guaYao) {
         yao: "初九",
         xiaoXiang: "壮于趾, 其孚穷也.",
         origin: "壮于趾, 征凶, 有孚.",
-        meaning: "脚趾变粗壮 出兵征伐 有凶险 需要有诚信",
+        meaning: "脚趾变粗壮 出门远行 有凶险 需要有诚信",
         videoUrls: ["https://www.youtube.com/embed/McNgvOh7zv0"],
         references: [
           "http://ly.yishihui.net/14015.htm",
@@ -4098,13 +4098,13 @@ export function answers(guaYao) {
         xiaoXiang: "君子于行, 义不食也.",
         origin: "明夷于飞, 垂其翼. 君子于行, 三日不食. 有攸往, 主人有言.",
         meaning:
-          "光明遭到损伤时 就像飞鸟低垂着翅膀 惊慌飞行 如同君子急行 三天没有吃饭 一旦有所作为 会受到主人的责备",
+          "在昏暗中 就像飞鸟低垂着翅膀 惊慌飞行 君子若要退避隐藏 就是丢掉职位 三天没有吃饭 一旦有所作为 会受到主人的责备",
         videoUrls: ["https://www.youtube.com/embed/_H3ysGIPp8M"],
         references: [
           "http://ly.yishihui.net/14076.htm",
           "https://www.guoyi360.com/64gua36/xj/5441.html",
         ],
-      }; // @TODO
+      };
     case "明夷六二":
       return {
         gua: "明夷",
@@ -4112,7 +4112,7 @@ export function answers(guaYao) {
         yao: "六二",
         xiaoXiang: "六二之吉, 顺以则也.",
         origin: "明夷, 夷于左股, 用拯马壮, 吉.",
-        meaning: "光明遭到损伤时 伤到左大腿 如果有良马来救 可获吉祥",
+        meaning: "在昏暗中 伤到左大腿 如果有良马来救 可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/_H3ysGIPp8M"],
         references: [
           "http://ly.yishihui.net/14078.htm",
@@ -4126,13 +4126,13 @@ export function answers(guaYao) {
         yao: "九三",
         xiaoXiang: "南狩之志, 乃大得也.",
         origin: "明夷于南狩, 得其大首, 不可疾, 贞.",
-        meaning: "光明遭到损伤时 在南方狩猎 获得丰厚 不可操之过急 正固",
+        meaning: "在昏暗中 去南方狩猎 想获得丰厚 不可操之过急 正固",
         videoUrls: ["https://www.youtube.com/embed/_H3ysGIPp8M"],
         references: [
           "http://ly.yishihui.net/14080.htm",
           "https://www.guoyi360.com/64gua36/xj/5443.html",
         ],
-      }; // @TODO
+      };
     case "明夷六四":
       return {
         gua: "明夷",
@@ -4140,13 +4140,13 @@ export function answers(guaYao) {
         yao: "六四",
         xiaoXiang: "入于左腹, 获心意也.",
         origin: "入于左腹, 获明夷之心, 出于门庭.",
-        meaning: "进入近臣内侧 洞悉光明损伤的内情 走出院子",
+        meaning: "进入王宫内部 洞悉昏暗的内部情况 最后离开王宫庭院", // 薇子 离开 商纣 王
         videoUrls: ["https://www.youtube.com/embed/_H3ysGIPp8M"],
         references: [
           "http://ly.yishihui.net/14082.htm",
           "https://www.guoyi360.com/64gua36/xj/5444.html",
         ],
-      }; // @TODO
+      };
     case "明夷六五":
       return {
         gua: "明夷",
@@ -4154,7 +4154,7 @@ export function answers(guaYao) {
         yao: "六五",
         xiaoXiang: "箕子之贞, 明不可息也.",
         origin: "箕子之明夷, 利贞.",
-        meaning: "像箕子受难时一样 正固",
+        meaning: "像箕子受难时一样 保持正固",
         videoUrls: ["https://www.youtube.com/embed/_H3ysGIPp8M"],
         references: [
           "http://ly.yishihui.net/14084.htm",
@@ -4312,14 +4312,13 @@ export function answers(guaYao) {
         yao: "九四",
         xiaoXiang: "交孚无咎, 志行也.",
         origin: "睽孤, 遇元夫. 交孚, 厉无咎.",
-        meaning:
-          "因心志与众人不和而陷入孤立 但刚好遇到一位贵人 交往中以诚相待 有凶险 无灾祸",
+        meaning: "乖离而孤独 但刚好遇到一位贵人 交往中以诚相待 有危险 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/jPpKi62dG3A"],
         references: [
           "http://ly.yishihui.net/14112.htm",
           "https://www.guoyi360.com/64gua38/xj/5521.html",
         ],
-      }; // @TODO
+      };
     case "睽六五":
       return {
         gua: "睽",
@@ -4341,7 +4340,7 @@ export function answers(guaYao) {
         yao: "上九",
         xiaoXiang: "遇雨之吉, 群疑亡也.",
         origin:
-          "睽孤, 见豕负涂, 载鬼一车. 先张之弧, 后说之弧, 匪寇婚媾. 往遇雨则吉.",
+          "睽孤, 见豕负涂, 载鬼一车. 先张之弧, 后说之弧. 匪寇婚媾, 往遇雨则吉.",
         meaning:
           "处于极其孤立的状态 恍惚之间看到一头背上涂满淤泥的猪 又看到一辆载有一车像鬼一样的人 开始想拉开弓箭准备射击 后来又放下弓箭 原来是迎亲的队伍 有所行动 遇到雨可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/jPpKi62dG3A"],
@@ -4371,13 +4370,13 @@ export function answers(guaYao) {
         yao: "六二",
         xiaoXiang: "王臣蹇蹇, 终无尤也.",
         origin: "王臣蹇蹇, 匪躬之故.",
-        meaning: "君王与大臣在危难中行走 他们并不是为了自己",
+        meaning: "君王的臣子遇到险难 不是因为自己的缘故",
         videoUrls: ["https://www.youtube.com/embed/YP7mPimiqbw"],
         references: [
           "http://ly.yishihui.net/14029.htm",
           "https://www.guoyi360.com/64gua39/xj/5527.html",
         ],
-      }; // @TODO
+      };
     case "蹇九三":
       return {
         gua: "蹇",
@@ -4525,13 +4524,14 @@ export function answers(guaYao) {
         yao: "初九",
         xiaoXiang: "已事遄往，尚合志也.",
         origin: "已事遄往, 无咎, 酌损之.",
-        meaning: "停止自己的事情 尽快帮助他人 无灾祸 要酌情量力而为",
+        meaning:
+          "停止自己的事情 尽快帮助他人 无灾祸 不过适当斟酌减损自己一部分利益就可以了",
         videoUrls: ["https://www.youtube.com/embed/4wzNvYjrrGM"],
         references: [
           "http://ly.yishihui.net/14417.htm",
           "https://www.guoyi360.com/64gua41/xj/5562.html",
         ],
-      }; // @TODO
+      };
     case "损九二":
       return {
         gua: "损",
@@ -4539,13 +4539,13 @@ export function answers(guaYao) {
         yao: "九二",
         xiaoXiang: "九二利贞, 中以为志也.",
         origin: "利贞, 征凶. 弗损, 益之.",
-        meaning: "有利于正固 出兵征伐有凶险 不要减少 要增加",
+        meaning: "有利于正固 出门远行有凶险 不要减少 会得到增益",
         videoUrls: ["https://www.youtube.com/embed/4wzNvYjrrGM"],
         references: [
           "http://ly.yishihui.net/14419.htm",
           "https://www.guoyi360.com/64gua41/xj/5563.html",
         ],
-      }; // @TODO
+      };
     case "损六三":
       return {
         gua: "损",
@@ -4597,13 +4597,13 @@ export function answers(guaYao) {
         xiaoXiang: "弗损益之, 大得志也.",
         origin: "弗损, 益之, 无咎. 贞吉. 利有攸往, 得臣无家.",
         meaning:
-          "不要减少 要增加 无灾祸 正固吉祥 适宜有所行动 会得到无私忘家的臣子",
+          "不要减损 会得到增益 无灾祸 正固吉祥 适宜有所行动 会得到臣民没有自己的家",
         videoUrls: ["https://www.youtube.com/embed/4wzNvYjrrGM"],
         references: [
           "http://ly.yishihui.net/14427.htm",
           "https://www.guoyi360.com/64gua41/xj/5567.html",
         ],
-      }; // @TODO
+      };
     case "益初九":
       return {
         gua: "益",
@@ -4685,13 +4685,13 @@ export function answers(guaYao) {
         yao: "上九",
         xiaoXiang: "莫益之, 偏辞也. 或击之, 自外来也.",
         origin: "莫益之, 或击之, 立心勿恒, 凶.",
-        meaning: "没有得到增益 或者受到攻击 树立决心不够坚定 有凶险",
+        meaning: "没有得到增益帮助 或者受到攻击 树立决心不够坚定 有凶险",
         videoUrls: ["https://www.youtube.com/embed/sEVZTXq73bw"],
         references: [
           "http://ly.yishihui.net/14439.htm",
           "https://www.guoyi360.com/64gua42/xj/5587.html",
         ],
-      }; // @TODO
+      };
     case "夬初九":
       return {
         gua: "夬",
@@ -4827,7 +4827,7 @@ export function answers(guaYao) {
         daXiang: "女壮, 勿用取女.",
         yao: "九四",
         xiaoXiang: "无鱼之凶, 远民也.",
-        origin: "包无鱼，起凶.",
+        origin: "包无鱼, 起凶.",
         meaning: "厨房无鱼 会引发凶险",
         videoUrls: ["https://www.youtube.com/embed/D305yChuOgA"],
         references: [
@@ -4841,14 +4841,14 @@ export function answers(guaYao) {
         daXiang: "女壮, 勿用取女.",
         yao: "九五",
         xiaoXiang: "九五含章, 中正也. 有陨自天, 志不舍命也.",
-        origin: "以杞包瓜，含章，有陨自天.",
-        meaning: "用杞树萌护树下的瓜果 象征着蕴藏彰美之徳 会喜从天降",
+        origin: "以杞包瓜, 含章, 有陨自天.",
+        meaning: "用杞树萌护树下的瓜果 象征着蕴藏文采 会从天而降",
         videoUrls: ["https://www.youtube.com/embed/D305yChuOgA"],
         references: [
           "http://ly.yishihui.net/15244.htm",
           "https://www.guoyi360.com/64gua44/xj/5620.html",
         ],
-      }; // @TODO
+      };
     case "姤上九":
       return {
         gua: "姤",
@@ -4877,7 +4877,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/15248.htm",
           "https://www.guoyi360.com/64gua45/xj/5624.html",
         ],
-      }; // @TODO
+      };
     case "萃六二":
       return {
         gua: "萃",
@@ -5039,7 +5039,7 @@ export function answers(guaYao) {
         daXiang: "亨, 贞, 大人吉, 无咎. 有言不信.",
         yao: "初六",
         xiaoXiang: "入于幽谷, 幽不明也.",
-        origin: "臀困于株木, 入于幽谷, 三岁不见.",
+        origin: "臀困于株木, 入于幽谷, 三岁不觌.",
         meaning: "困坐在树干上无法安身 只得退居幽暗的山谷里 三年不能露面",
         videoUrls: ["https://www.youtube.com/embed/zroiV_ye60Y"],
         references: [
@@ -5053,9 +5053,9 @@ export function answers(guaYao) {
         daXiang: "亨, 贞, 大人吉, 无咎. 有言不信.",
         yao: "九二",
         xiaoXiang: "困于酒食, 中有庆也.",
-        origin: "困于洒食, 朱绂方来, 利用享祀. 征凶, 无咎.",
+        origin: "困于酒食, 朱绂方来, 利用享祀. 征凶, 无咎.",
         meaning:
-          "喝醉了酒 大红祭祀衣服刚刚送来 正好用来祭祀 此时出兵征伐有凶险 无灾祸",
+          "喝醉了酒 大红祭祀衣服刚刚送来 正好用来祭祀 此时出门远行有凶险 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/zroiV_ye60Y"],
         references: [
           "http://ly.yishihui.net/14604.htm",
@@ -5115,7 +5115,7 @@ export function answers(guaYao) {
         xiaoXiang: "困于葛藟, 未当也. 动悔有悔, 吉行也.",
         origin: "困于葛藟, 于臲卼, 曰动悔. 有悔, 征吉.",
         meaning:
-          "被葛藤纠缠的惶恐不安有所行动会感到后悔 应该幡然悔悟 出兵征伐 可获吉祥",
+          "被葛藤纠缠的惶恐不安有所行动会感到后悔 应该幡然悔悟 出门远行 可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/zroiV_ye60Y"],
         references: [
           "http://ly.yishihui.net/14612.htm",
@@ -5164,7 +5164,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/14618.htm",
           "https://www.guoyi360.com/64gua48/xj/5659.html",
         ],
-      }; // @TODO
+      };
     case "井六四":
       return {
         gua: "井",
@@ -5185,8 +5185,8 @@ export function answers(guaYao) {
         daXiang: "改邑不改井, 无丧无得. 往来井井. 汔至亦未繘井. 羸其瓶, 凶.",
         yao: "九五",
         xiaoXiang: "寒泉之食, 中正也.",
-        origin: "井冽, 寒泉食.",
-        meaning: "井水清澈明净 就像甘甜凉爽的泉水一样 可供饮用",
+        origin: "井冽寒泉, 食.",
+        meaning: "井水清澈明净就像甘甜凉爽的泉水一样 可供饮用",
         videoUrls: ["https://www.youtube.com/embed/xw4Oyuddkn0"],
         references: [
           "http://ly.yishihui.net/14622.htm",
@@ -5243,7 +5243,7 @@ export function answers(guaYao) {
         xiaoXiang: "革言三就, 又何之矣.",
         origin: "征凶, 贞厉. 革言三就, 有孚.",
         meaning:
-          "出兵征伐会有凶险 即使正固也有危险 变革要集思广益 行动时要有诚信",
+          "出门远行会有凶险 即使正固也有危险 变革要集思广益 行动时要有诚信",
         videoUrls: ["https://www.youtube.com/embed/IicUkJcabq8"],
         references: [
           "http://ly.yishihui.net/14630.htm",
@@ -5272,13 +5272,13 @@ export function answers(guaYao) {
         xiaoXiang: "大人虎变, 其文炳也.",
         origin: "大人虎变, 未占有孚.",
         meaning:
-          "有才能的人变革时气势会像老虎一样威猛 不必占卜 也能光大诚信的美德",
+          "有才能的人变革时气势会像老虎一样威猛 不必占卜 也能有光大诚信的美德",
         videoUrls: ["https://www.youtube.com/embed/IicUkJcabq8"],
         references: [
           "http://ly.yishihui.net/14634.htm",
           "https://www.guoyi360.com/64gua49/xj/5679.html",
         ],
-      }; // @TODO
+      };
     case "革上六":
       return {
         gua: "革",
@@ -5316,13 +5316,13 @@ export function answers(guaYao) {
         yao: "九二",
         xiaoXiang: "鼎有实, 慎所之也. 我仇有疾, 终无尤也.",
         origin: "鼎有实, 我仇有疾, 不我能即, 吉.",
-        meaning: "鼎中盛满食物 容易招来敌对者的嫉妒 不能靠近我 可获吉祥",
+        meaning: "鼎中盛满食物 我的对手患了疾病 所以不能靠近我 可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/E83Hjgi0li0"],
         references: [
           "http://ly.yishihui.net/14550.htm",
           "https://www.guoyi360.com/64gua50/xj/5714.html",
         ],
-      }; // @TODO
+      };
     case "鼎九三":
       return {
         gua: "鼎",
@@ -5384,9 +5384,9 @@ export function answers(guaYao) {
     case "震初九":
       return {
         gua: "震",
-        daXiang: "震来虩虩, 恐致福也. 笑言哑哑, 后有则也.",
+        daXiang: "亨. 震来虩虩, 笑言哑哑. 震惊百里, 不丧匕鬯.",
         yao: "初九",
-        xiaoXiang: "玉铉在上, 刚柔节也.",
+        xiaoXiang: "震来虩虩, 恐致福也. 笑言哑哑, 后有则也.",
         origin: "震来虩虩, 后笑言哑哑, 吉.",
         meaning: "雷霆极响 震的万物惊惶恐惧 虽有有谈笑风生 吉祥",
         videoUrls: ["https://www.youtube.com/embed/msxEc57-I2"],
@@ -5398,7 +5398,7 @@ export function answers(guaYao) {
     case "震六二":
       return {
         gua: "震",
-        daXiang: "震来虩虩, 恐致福也. 笑言哑哑, 后有则也.",
+        daXiang: "亨. 震来虩虩, 笑言哑哑. 震惊百里, 不丧匕鬯.",
         yao: "六二",
         xiaoXiang: "震来厉, 乘刚也.",
         origin: "震来厉, 亿丧贝. 跻于九陵, 勿逐, 七日得.",
@@ -5413,7 +5413,7 @@ export function answers(guaYao) {
     case "震六三":
       return {
         gua: "震",
-        daXiang: "震来虩虩, 恐致福也. 笑言哑哑, 后有则也.",
+        daXiang: "亨. 震来虩虩, 笑言哑哑. 震惊百里, 不丧匕鬯.",
         yao: "六三",
         xiaoXiang: "震苏苏, 位不当也.",
         origin: "震苏苏, 震行无眚.",
@@ -5427,7 +5427,7 @@ export function answers(guaYao) {
     case "震九四":
       return {
         gua: "震",
-        daXiang: "震来虩虩, 恐致福也. 笑言哑哑, 后有则也.",
+        daXiang: "亨. 震来虩虩, 笑言哑哑. 震惊百里, 不丧匕鬯.",
         yao: "九四",
         xiaoXiang: "震遂泥, 未光也.",
         origin: "震遂泥.",
@@ -5441,9 +5441,9 @@ export function answers(guaYao) {
     case "震六五":
       return {
         gua: "震",
-        daXiang: "震往来厉, 危行也. 其事在中, 大无丧也.",
+        daXiang: "亨. 震来虩虩, 笑言哑哑. 震惊百里, 不丧匕鬯.",
         yao: "六五",
-        xiaoXiang: "震遂泥, 未光也.",
+        xiaoXiang: "震往来厉, 危行也. 其事在中, 大无丧也.",
         origin: "震往来厉, 亿无丧, 有事.",
         meaning: "雷霆震动 上下往来都有危险 但无重大损失 会有事发生",
         videoUrls: ["https://www.youtube.com/embed/msxEc57-I2"],
@@ -5455,12 +5455,12 @@ export function answers(guaYao) {
     case "震上六":
       return {
         gua: "震",
-        daXiang: "震往来厉, 危行也. 其事在中, 大无丧也.",
+        daXiang: "亨. 震来虩虩, 笑言哑哑. 震惊百里, 不丧匕鬯.",
         yao: "上六",
         xiaoXiang: "震索索, 未得中也. 虽凶无咎, 畏邻戒也.",
         origin: "震索索, 视矍矍, 征凶. 震不于其躬, 于其邻, 无咎. 婚媾有言.",
         meaning:
-          "雷霆震动 瑟瑟发抖 六神无主 出兵征伐有凶险 震动不是来自于自身而是来自于旁边的人 无灾祸 婚配会有责怪之言",
+          "雷霆震动 瑟瑟发抖 六神无主 出门远行有凶险 震动不是来自于自身而是来自于旁边的人 无灾祸 婚配会有责怪之言",
         videoUrls: ["https://www.youtube.com/embed/msxEc57-I2"],
         references: [
           "http://ly.yishihui.net/14570.htm",
@@ -5616,7 +5616,7 @@ export function answers(guaYao) {
         daXiang: "女归吉, 利贞.",
         yao: "九五",
         xiaoXiang: "终莫之胜, 吉, 得所愿也.",
-        origin: "鸿渐于木, 或得其桷, 无咎.",
+        origin: "鸿渐于陵, 妇三岁不孕, 终莫之胜, 吉.",
         meaning:
           "鸿雁飞行渐进到了山丘上 妇女三年不能怀孕 但邪不压正 最终可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/dp_QYXmiDOk"],
@@ -5624,7 +5624,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/15230.htm",
           "https://www.guoyi360.com/64gua53/xj/5741.html",
         ],
-      }; // @TODO
+      };
     case "渐上九":
       return {
         gua: "渐",
@@ -5648,7 +5648,7 @@ export function answers(guaYao) {
         xiaoXiang: "归妹以娣, 以恒也. 跛能履, 吉相承也.",
         origin: "归妹以娣, 跛能履, 征吉.",
         meaning:
-          "少女出嫁 妹妹作为从嫁做偏房 就像跛脚的人奋力前行 出兵征伐可获吉祥",
+          "少女出嫁 妹妹作为从嫁做偏房 就像跛脚的人奋力前行 出门远行可获吉祥",
         videoUrls: ["https://www.youtube.com/embed/yVu6ucdn4CY"],
         references: [
           "http://ly.yishihui.net/14869.htm",
@@ -5683,7 +5683,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/14873.htm",
           "https://www.guoyi360.com/64gua54/xj/5769.html",
         ],
-      }; // @TODO
+      };
     case "归妹九四":
       return {
         gua: "归妹",
@@ -5736,11 +5736,8 @@ export function answers(guaYao) {
         origin: "遇其配主, 虽旬无咎, 往有尚.",
         meaning: "遇到与自己匹配的人 十日内无灾祸 前往会得到尊重",
         videoUrls: ["https://www.youtube.com/embed/dQvW4bxWbAQ"],
-        references: [
-          "http://ly.yishihui.net/14881.htm",
-          "https://www.guoyi360.com/64gua55/xj/5802.html",
-        ],
-      }; // @TODO
+        references: ["https://www.guoyi360.com/64gua55/xj/5802.html"],
+      };
     case "丰六二":
       return {
         gua: "丰",
@@ -5755,7 +5752,7 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/14884.htm",
           "https://www.guoyi360.com/64gua55/xj/5803.html",
         ],
-      }; // @TODO
+      };
     case "丰九三":
       return {
         gua: "丰",
@@ -5777,13 +5774,13 @@ export function answers(guaYao) {
         yao: "九四",
         xiaoXiang: "丰其蔀, 位不当也. 日中见斗, 幽不明也. 遇其夷主, 吉行也.",
         origin: "丰其蔀, 日中见斗. 遇其夷主, 吉.",
-        meaning: "草棚遮蔽很大 中午出现满天星斗 遇到外邦的主人 吉祥",
+        meaning: "草棚遮蔽很大 中午出现满天星斗 阴暗不明朗 遇到外邦的主人 吉祥",
         videoUrls: ["https://www.youtube.com/embed/dQvW4bxWbAQ"],
         references: [
           "http://ly.yishihui.net/14888.htm",
           "https://www.guoyi360.com/64gua55/xj/5805.html",
         ],
-      }; // @TODO
+      };
     case "丰六五":
       return {
         gua: "丰",
@@ -5804,7 +5801,7 @@ export function answers(guaYao) {
         daXiang: "亨. 王假之, 勿忧, 宜日中.",
         yao: "上六",
         xiaoXiang: "丰其屋, 天际翔也. 窥其户, 阒其无人, 自藏也.",
-        origin: "丰其屋, 蔀其家, 窥其户, 阒其无人, 三岁不见, 凶.",
+        origin: "丰其屋, 蔀其家, 窥其户, 阒其无人, 三岁不觌, 凶.",
         meaning:
           "房屋高大 遮蔽了其他人家 从门缝里往里面看 里面空无一人 三年不见有人 凶险",
         videoUrls: ["https://www.youtube.com/embed/dQvW4bxWbAQ"],
@@ -5834,13 +5831,13 @@ export function answers(guaYao) {
         yao: "六二",
         xiaoXiang: "得童仆贞, 终无尤也.",
         origin: "旅即次, 怀其资, 得童仆, 贞.",
-        meaning: "旅行的人入住客店 怀里揣着钱财 得到僮仆的诚信侍奉",
+        meaning: "旅行的人入住客店 怀里揣着钱财 得到僮仆 可以正固",
         videoUrls: ["https://www.youtube.com/embed/lamIrtRAYEY"],
         references: [
           "http://ly.yishihui.net/14748.htm",
           "https://www.guoyi360.com/64gua56/xj/5816.html",
         ],
-      }; // @TODO
+      };
     case "旅九三":
       return {
         gua: "旅",
@@ -5953,11 +5950,8 @@ export function answers(guaYao) {
         meaning:
           "正固吉祥 忧悔消除 无所不利 起初不顺利 但最后能畅通无阻 时间是 丁日 戊日 己日 和 辛日 壬日 癸日 吉祥",
         videoUrls: ["https://www.youtube.com/embed/SF2--MF7yls"],
-        references: [
-          "http://ly.yishihui.net/14766.htm",
-          "http://ly.yishihui.net/14766.htm",
-        ],
-      }; // @TODO
+        references: ["http://ly.yishihui.net/14766.htm"],
+      };
     case "巽上九":
       return {
         gua: "巽",
@@ -5966,10 +5960,10 @@ export function answers(guaYao) {
         xiaoXiang: "巽在床下, 上穷也. 丧其资斧, 正乎凶也.",
         origin: "巽在床下, 丧其资斧, 贞凶.",
         meaning:
-          "过分顺从而屈居床下 结果 失掉了 财产和利斧之助 即使正固也会有凶险",
+          "谦卑恭顺到了极点而屈于床下 丧失了赖以谋生的资本 丧失了刚硬的本性 结果是凶险的",
         videoUrls: ["https://www.youtube.com/embed/SF2--MF7yls"],
         references: ["http://ly.yishihui.net/14768.htm"],
-      }; // @TODO
+      };
     case "兑初九":
       return {
         gua: "兑",
@@ -6018,7 +6012,7 @@ export function answers(guaYao) {
         daXiang: "亨, 利贞.",
         yao: "九四",
         xiaoXiang: "九四之喜, 有庆也.",
-        origin: "商兑, 未宁, 介疾有喜.",
+        origin: "商未宁, 介疾有喜.",
         meaning: "商议之中和睦欢愉 但事情没有办成 消除小毛病会有喜庆之事",
         videoUrls: ["https://www.youtube.com/embed/QGSjxXkQ5Ws"],
         references: [
@@ -6118,14 +6112,13 @@ export function answers(guaYao) {
         yao: "九五",
         xiaoXiang: "王居无咎, 正位也.",
         origin: "涣汗其大号, 涣王居, 无咎.",
-        meaning:
-          "像出汗一样不停的颁布君王诏命 并疏散君王聚敛的财富来救助天下百姓 无灾祸",
+        meaning: "君王频繁颁布诏令 君王居中守正可安居 无灾祸",
         videoUrls: ["https://www.youtube.com/embed/DI7SkvWsvr0"],
         references: [
           "http://ly.yishihui.net/15012.htm",
           "https://www.guoyi360.com/64gua59/xj/5989.html",
         ],
-      }; // @TODO
+      };
     case "涣上九":
       return {
         gua: "涣",
@@ -6357,7 +6350,7 @@ export function answers(guaYao) {
         daXiang: "亨, 利贞. 可小事, 不可大事. 飞鸟遗之音. 不宜上, 宜下, 大吉.",
         yao: "九四",
         xiaoXiang: "弗过遇之, 位不当也. 往厉必戒, 终不可长也.",
-        origin: "无咎, 弗过遇之, 往厉必戒. 勿用, 永贞.",
+        origin: "无咎, 弗过遇之, 往厉必戒. 勿用永贞.",
         meaning:
           "无灾祸 不要过分求进而强和他人遇合 有所行动会有危险 必须加以警惕 占问长久的事情 筮得此爻 不宜施行",
         videoUrls: ["https://www.youtube.com/embed/HtqPzOC6Xwc"],
@@ -6516,7 +6509,7 @@ export function answers(guaYao) {
         yao: "六三",
         xiaoXiang: "未济征凶, 位不当也.",
         origin: "未济, 征凶, 利涉大川.",
-        meaning: "事业未成 出兵征伐有凶险 但适宜跨越大江大河",
+        meaning: "事业未成 出门远行有凶险 但适宜跨越大江大河",
         videoUrls: ["https://www.youtube.com/embed/bmbuBGNBTSU"],
         references: [
           "http://ly.yishihui.net/15138.htm",
@@ -6564,6 +6557,6 @@ export function answers(guaYao) {
           "http://ly.yishihui.net/15144.htm",
           "https://www.guoyi360.com/64gua64/xj/6051.html",
         ],
-      }; // @TODO
+      };
   }
 }
