@@ -4078,7 +4078,11 @@ export function answers(guaYao) {
         xiaoXiang: "藉用白茅, 柔在下也.",
         origin: "藉用白茅, 无咎.",
         meaning: "用洁净的茅草铺地以陈设祭品 无灾祸",
-        videoUrls: ["https://www.youtube.com/embed/ENDIi0PFR90"],
+        videoUrls: [
+          "https://www.youtube.com/embed/ENDIi0PFR90",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=41",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=42",
+        ],
         references: [
           "http://ly.yishihui.net/13862.htm",
           "https://www.guoyi360.com/64gua28/xj/5331.html",
@@ -4092,7 +4096,11 @@ export function answers(guaYao) {
         xiaoXiang: "老夫女妻, 过以相与也.",
         origin: "枯杨生稊, 老夫得其女妻, 无不利.",
         meaning: "枯树发芽 老翁娶新妻 无所不利",
-        videoUrls: ["https://www.youtube.com/embed/ENDIi0PFR90"],
+        videoUrls: [
+          "https://www.youtube.com/embed/ENDIi0PFR90",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=41",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=42",
+        ],
         references: [
           "http://ly.yishihui.net/13864.htm",
           "https://www.guoyi360.com/64gua28/xj/5332.html",
@@ -4106,7 +4114,11 @@ export function answers(guaYao) {
         xiaoXiang: "栋桡之凶, 不可以有辅也.",
         origin: "栋桡, 凶.",
         meaning: "房梁弯曲 有凶险",
-        videoUrls: ["https://www.youtube.com/embed/ENDIi0PFR90"],
+        videoUrls: [
+          "https://www.youtube.com/embed/ENDIi0PFR90",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=41",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=42",
+        ],
         references: [
           "http://ly.yishihui.net/13866.htm",
           "https://www.guoyi360.com/64gua28/xj/5333.html",
@@ -4120,7 +4132,11 @@ export function answers(guaYao) {
         xiaoXiang: "栋隆之吉, 不桡乎下也.",
         origin: "栋隆, 吉. 有它吝.",
         meaning: "房梁隆起 可获吉祥 如果有意外发生 则行事艰难",
-        videoUrls: ["https://www.youtube.com/embed/ENDIi0PFR90"],
+        videoUrls: [
+          "https://www.youtube.com/embed/ENDIi0PFR90",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=41",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=42",
+        ],
         references: [
           "http://ly.yishihui.net/13868.htm",
           "https://www.guoyi360.com/64gua28/xj/5334.html",
@@ -4134,7 +4150,11 @@ export function answers(guaYao) {
         xiaoXiang: "枯杨生华, 何可久也? 老妇士夫, 亦可丑也.",
         origin: "枯杨生花, 老妇得其士夫, 无咎无誉.",
         meaning: "枯树开花 老妇与少男结合 无灾祸 无赞誉",
-        videoUrls: ["https://www.youtube.com/embed/ENDIi0PFR90"],
+        videoUrls: [
+          "https://www.youtube.com/embed/ENDIi0PFR90",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=41",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=42",
+        ],
         references: [
           "http://ly.yishihui.net/13870.htm",
           "https://www.guoyi360.com/64gua28/xj/5335.html",
@@ -4148,7 +4168,11 @@ export function answers(guaYao) {
         xiaoXiang: "过涉之凶, 不可咎也.",
         origin: "过涉灭顶, 凶, 无咎.",
         meaning: "徒步过河 被水淹灭了 头顶 有凶险 无灾祸",
-        videoUrls: ["https://www.youtube.com/embed/ENDIi0PFR90"],
+        videoUrls: [
+          "https://www.youtube.com/embed/ENDIi0PFR90",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=41",
+          "https://www.youtube.com/watch?v=vLv7UTd7bDo&list=PLkWWcTwDGs4bv0ib8Sgq6nTD9zUCfeK2M&index=42",
+        ],
         references: [
           "http://ly.yishihui.net/13872.htm",
           "https://www.guoyi360.com/64gua28/xj/5336.html",

@@ -70,30 +70,46 @@ export default function Home() {
         </form>
         {Object.keys(output)?.length > 0 && (
           <div>
-            <p>The answer is: {output.meaning}</p>
-            {!!output?.videoUrls?.length &&
-              output?.videoUrls.map((url, index) => (
-                <iframe
-                  key={`video-url-${index + 1}`}
-                  width="319.5"
-                  height="180"
-                  src={url}
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                ></iframe>
-              ))}
-            {!!output?.references?.length && (
-              <ul>
-                {output?.references?.map((references, index) => (
-                  <li key={`reference-link-${index + 1}`}>
-                    <a href={references} target="_blank" rel="noreferrer">
-                      Reference {index + 1}
-                    </a>
-                  </li>
+            <h3>答案是: {output.meaning}</h3>
+            <div>
+              <p>卦: {output.gua}</p>
+              <p>爻: {output.yao}</p>
+              <p>大象辞: {output.daXiang}</p>
+              <p>小象辞: {output.xiaoXiang}</p>
+            </div>
+            <br />
+            {!!output?.videoUrls?.length && (
+              <>
+                <h4>视频</h4>
+                {output?.videoUrls.map((url, index) => (
+                  <iframe
+                    key={`video-url-${index + 1}`}
+                    width="319.5"
+                    height="180"
+                    src={url}
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
                 ))}
-              </ul>
+              </>
+            )}
+            <br />
+            <br />
+            {!!output?.references?.length && (
+              <>
+                <h4>相关文章</h4>
+                <ul>
+                  {output?.references?.map((references, index) => (
+                    <li key={`reference-link-${index + 1}`}>
+                      <a href={references} target="_blank" rel="noreferrer">
+                        Reference {index + 1}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </>
             )}
           </div>
         )}
