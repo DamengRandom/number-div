@@ -22,9 +22,10 @@ yarn dev
 
 5). http://ly.yishihui.net/category/liuyaorumen
 
-6).
+6). https://zh.wikipedia.org/zh/%E5%91%A8%E6%98%93%E5%85%AD%E5%8D%81%E5%9B%9B%E5%8D%A6%E5%88%97%E8%A1%A8
+
+7).
 
 <!-- ### Ideas
-1). add more video references
-2). add more article references
+1). add more article references
  -->
