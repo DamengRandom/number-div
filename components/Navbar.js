@@ -8,6 +8,7 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 import { FaGithub, FaDiscord } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
@@ -20,30 +21,20 @@ export default function Navbar() {
       <Spacer />
       <Box>
         <ButtonGroup variant="ghost">
-          <a
-            href="https://github.com/DamengRandom"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <>
             <IconButton
               as="a"
-              href="#"
+              href="https://github.com/DamengRandom"
               aria-label="GitHub"
               icon={<FaGithub fontSize="1.25rem" />}
             />
-          </a>
-          <a
-            href="https://discord.gg/VctrFCXc"
-            target="_blank"
-            rel="noreferrer"
-          >
             <IconButton
               as="a"
-              href="#"
+              href="https://discord.gg/VctrFCXc"
               aria-label="Twitter"
               icon={<FaDiscord fontSize="1.25rem" />}
             />
-          </a>
+          </>
         </ButtonGroup>
       </Box>
     </Flex>
