@@ -8,7 +8,6 @@ import {
   Spacer,
 } from "@chakra-ui/react";
 import { FaGithub, FaDiscord } from "react-icons/fa";
-import Link from "next/link";
 
 export default function Navbar() {
   return (

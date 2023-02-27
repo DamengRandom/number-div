@@ -166,6 +166,8 @@ export function allGuas(guaCi) {
       return "既济";
     case "fire-water":
       return "未济";
+    default:
+      return "无";
   }
 }
 
@@ -363,6 +365,8 @@ export function allYaos(gua) {
     case "fire-water":
     case "未济":
       return ["初六", "九二", "六三", "九四", "六五", "上九"];
+    default:
+      return ["无", "无", "无", "无", "无", "无"];
   }
 }
 
@@ -1136,6 +1140,8 @@ export function answer(guaYao) {
       return "正固吉祥 没有悔恨 君子的光辉在于诚实守信 吉祥";
     case "未济上九":
       return "心怀诚信 来喝酒 无灾祸 水沾湿了头颅 即使心怀诚信 也会失去"; // @TODO
+    default:
+      return "无";
   }
 }
 
@@ -9710,6 +9716,18 @@ export function answers(guaYao) {
           "https://www.zhouyi.cc/zhouyi/yijing64/4263.html",
           "https://www.buyiju.com/zhouyi/yijing/64gua-64.html",
         ],
+      };
+    case "无无":
+    default:
+      return {
+        gua: "无",
+        daXiang: "无",
+        yao: "无",
+        xiaoXiang: "无",
+        origin: "无",
+        meaning: "无",
+        videoUrls: [],
+        references: [],
       };
   }
 }

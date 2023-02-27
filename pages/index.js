@@ -16,7 +16,6 @@ import {
   OrderedList,
   Text,
 } from "@chakra-ui/react";
-
 import { useForm } from "react-hook-form";
 import {
   convertToGua,
@@ -36,13 +35,13 @@ function request(data, setOutput) {
 
   // convert gua & yao to one of 64 varients
   const gua = allGuas(`${shangGua}-${xiaGua}`);
-  const yao = allYaos(gua)[yaoCi];
+  const yao = allYaos(gua)?.[yaoCi];
 
   // release final result answer
   // const finalResult = answer(`${gua}${yao}`); // single result
   const finalResult = answers(`${gua}${yao}`); // multiple results
 
-  setOutput(finalResult);
+  setOutput(finalResult); // (321 215 686 test for failure case)
 }
 
 const NumberInput = ({ name, label, errors, register }) => (
@@ -95,8 +94,8 @@ export default function Home() {
                   setLoading(false);
                 }, 1000); // get result after 1 second ~~
               } catch (error) {
-                setLoading(false);
                 console.error(error);
+                setLoading(false);
               }
             })}
           >
@@ -118,31 +117,33 @@ export default function Home() {
               errors={errors}
               register={register}
             />
-            {loading ? (
-              <Text>Spinning ..</Text>
-            ) : (
-              <Button
-                css={{
-                  "&:disabled": { background: "grey" },
-                }}
-                width="100%"
-                type="submit"
-                name="kan"
-                mt={4}
-                colorScheme="teal"
-                isLoading={loading}
-                isDisabled={!isDirty}
-              >
-                计算
-              </Button>
-            )}
+            <Button
+              css={{
+                "&:disabled": { background: "grey" },
+              }}
+              width="100%"
+              type="submit"
+              name="kan"
+              mt={4}
+              colorScheme="teal"
+              isLoading={loading}
+              isDisabled={!isDirty}
+            >
+              计算
+            </Button>
           </form>
           <Divider />
-          {console.log("🌴🌴🌴🌴🌴🌴🌴🌴🌴🌴", loading)}
           {loading ? (
-            <Text>Fetching ...</Text>
+            <Flex alignItems="center" justifyContent="center" height="300">
+              <span class="loader"></span>
+            </Flex>
           ) : (
             <Box pt={8}>
+              {output.meaning === "无" ? (
+                <Heading as="h3" size="md" color="red">
+                  抱歉, 请重新填写数字 进行计算
+                </Heading>
+              ) : null}
               {Object.keys(output)?.length > 0 && (
                 <Box>
                   <Heading as="h3" size="md" pt={8}>
