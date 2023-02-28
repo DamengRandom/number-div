@@ -135,7 +135,7 @@ export default function Home() {
           <Divider />
           {loading ? (
             <Flex alignItems="center" justifyContent="center" height="300">
-              <span class="loader"></span>
+              <span className="loader" />
             </Flex>
           ) : (
             <Box pt={8}>
