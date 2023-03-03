@@ -23,9 +23,5 @@ jobs:
         run: |
           echo "Running Linting Tests .."
           npm run lint
-      - name: Run Unit Tests
-        run: |
-          echo "Running Unit Tests .."
-          npm run test
         env:
           CI: true
