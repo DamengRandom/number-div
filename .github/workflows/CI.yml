@@ -2,7 +2,7 @@ name: ZhouYiPipeline
 
 on:
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   lintTest:
