@@ -1,5 +1,7 @@
 # Number Divination
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/8568e59a-4139-47f7-bc01-1598c5dada7b/deploy-status)](https://app.netlify.com/sites/zhouyi/deploys)
+
 ## Getting Started
 
 First, run the development server:

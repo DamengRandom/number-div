@@ -53,10 +53,10 @@ const NumberInput = ({ name, label, errors, register }) => (
         required: "This field is required",
         pattern: {
           value: /^\d{3}$/i,
-          message: "Please enter a 3 digits postive number",
+          message: "请输入数字 (3位数)",
         },
       })}
-      placeholder="Please enter first number (3 digits only)"
+      placeholder="请输入数字 (3位数)"
     />
     <FormErrorMessage>{errors[name] && errors[name]?.message}</FormErrorMessage>
   </FormControl>
