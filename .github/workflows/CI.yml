@@ -27,7 +27,7 @@ jobs:
           CI: true
 
   deployment:
-    name: Deploy to Vercel
+    name: Deploy to Netlify
     needs: lintTest
     runs-on: ubuntu-latest
     steps:
