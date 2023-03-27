@@ -101,19 +101,19 @@ export default function Home() {
           >
             <NumberInput
               name="xia"
-              label="第一个数字 (下卦) [3 位数]"
+              label="第一个心中所想数字 (下卦) [3 位数]"
               errors={errors}
               register={register}
             />
             <NumberInput
               name="shang"
-              label="第二个数字 (下卦) [3 位数]"
+              label="第二个心中所想数字 (上卦) [3 位数]"
               errors={errors}
               register={register}
             />
             <NumberInput
               name="yao"
-              label="第三个数字 (下卦) [3 位数]"
+              label="第三个心中所想数字 (爻辞) [3 位数]"
               errors={errors}
               register={register}
             />
