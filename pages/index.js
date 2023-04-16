@@ -31,11 +31,11 @@ function request(data, setOutput) {
   // calculate the gua & yao
   const xiaGua = convertToGua(data["xia"] % 8);
   const shangGua = convertToGua(data["shang"] % 8);
-  const yaoCi = convertToYao(data["yao"] % 6);
+  const theYao = convertToYao(data["yao"] % 6);
 
   // convert gua & yao to one of 64 varients
   const gua = allGuas(`${shangGua}-${xiaGua}`);
-  const yao = allYaos(gua)?.[yaoCi - 1];
+  const yao = allYaos(gua)?.[theYao - 1];
 
   // release final result answer
   // const finalResult = answer(`${gua}${yao}`); // single result
@@ -154,16 +154,16 @@ export default function Home() {
                   </Heading>
                   <Box py={4}>
                     <Text fontSize="lg">
-                      <strong>卦</strong>: {output.gua}
+                      <strong>卦名</strong>: {output.gua}
                     </Text>
                     <Text fontSize="lg">
-                      <strong>爻</strong>: {output.yao}
+                      <strong>爻位</strong>: {output.yao}
                     </Text>
                     <Text fontSize="lg">
-                      <strong>大象辞</strong>: {output.daXiang}
+                      <strong>卦辞</strong>: {output.guaCi}
                     </Text>
                     <Text fontSize="lg">
-                      <strong>小象辞</strong>: {output.xiaoXiang}
+                      <strong>爻辞</strong>: {output.yaoCi}
                     </Text>
                   </Box>
                   <Divider />
