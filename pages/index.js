@@ -26,8 +26,13 @@ import {
 } from "../utils/helpers";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import {
+  QueryClient,
+  QueryClientProvider,
+  useMutation,
+} from "@tanstack/react-query";
 
-function request(data, setOutput) {
+function request(data, setOutput, getAnswer) {
   // calculate the gua & yao
   const xiaGua = convertToGua(data["xia"] % 8);
   const shangGua = convertToGua(data["shang"] % 8);
@@ -42,6 +47,7 @@ function request(data, setOutput) {
   const finalResult = answers(`${gua}${yao}`); // multiple results
 
   setOutput(finalResult); // (321 215 686 test for failure case)
+  getAnswer(`请解释易经${gua}卦`); // GPT request for acquring answer
 }
 
 const NumberInput = ({ name, label, errors, register }) => (
@@ -62,9 +68,38 @@ const NumberInput = ({ name, label, errors, register }) => (
   </FormControl>
 );
 
-export default function Home() {
+const queryClient = new QueryClient();
+
+function HomeComponent() {
   const [output, setOutput] = useState({});
   const [loading, setLoading] = useState(false);
+
+  const queryMutation = useMutation({
+    mutationFn: async (text) => {
+      if (text) {
+        const response = await fetch(`/api/gpt?words=${text}`); // query eg: "generate a javascript closure code example"
+
+        if (!response.ok) throw new Error("not ok ..");
+
+        const json = await response.json();
+
+        return json?.data?.choices[0]?.text;
+      } else {
+        return "No request detected yet ..";
+      }
+    },
+    onSuccess: () => {
+      // refetch the latest data
+      queryClient.invalidateQueries({ queryKey: ["answer"] });
+    },
+  });
+
+  const getAnswer = (value) => {
+    queryMutation.mutate(value, {
+      onSuccess: (data) => data,
+    });
+  };
+
   const {
     register,
     formState: { errors, isDirty },
@@ -90,30 +125,30 @@ export default function Home() {
               try {
                 setLoading(true);
                 setTimeout(() => {
-                  request(data, setOutput);
+                  request(data, setOutput, getAnswer);
                   setLoading(false);
                 }, 1000); // get result after 1 second ~~
               } catch (error) {
-                console.error(error);
+                console.error("Error during submit: ", error);
                 setLoading(false);
               }
             })}
           >
             <NumberInput
               name="xia"
-              label="第一个心中所想数字 (下卦) [3 位数]"
+              label="第一个心中所想数字 (下卦) [3位数]"
               errors={errors}
               register={register}
             />
             <NumberInput
               name="shang"
-              label="第二个心中所想数字 (上卦) [3 位数]"
+              label="第二个心中所想数字 (上卦) [3位数]"
               errors={errors}
               register={register}
             />
             <NumberInput
               name="yao"
-              label="第三个心中所想数字 (爻辞) [3 位数]"
+              label="第三个心中所想数字 (爻辞) [3位数]"
               errors={errors}
               register={register}
             />
@@ -218,6 +253,21 @@ export default function Home() {
                       </OrderedList>
                     </>
                   )}
+                  <Divider />
+                  <>
+                    {queryMutation?.isLoading && <p>Content generating ..</p>}
+                    {queryMutation?.isError && (
+                      <p>Error occurred during generating new content ..</p>
+                    )}
+                    {!!queryMutation?.data && (
+                      <>
+                        <Heading as="h3" size="sm" pt={8} pb={4}>
+                          AI智能回答
+                        </Heading>
+                        <Box>{queryMutation?.data}</Box>
+                      </>
+                    )}
+                  </>
                 </Box>
               )}
             </Box>
@@ -226,5 +276,13 @@ export default function Home() {
       </main>
       <Footer />
     </>
+  );
+}
+
+export default function Home() {
+  return (
+    <QueryClientProvider client={queryClient}>
+      <HomeComponent />
+    </QueryClientProvider>
   );
 }
