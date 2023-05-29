@@ -1,9 +1,9 @@
 {
   "name": "number-div",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "private": true,
   "scripts": {
-    "dev": "PORT=4738 next dev",
+    "dev": "PORT=5738 next dev",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

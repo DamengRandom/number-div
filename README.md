@@ -7,7 +7,7 @@
 First, run the development server:
 
 ```bash
-npm run dev # "dev": "NODE_OPTIONS='--inspect' PORT=4738 next dev",
+npm run dev # "dev": "NODE_OPTIONS='--inspect' PORT=5738 next dev",
 ```
 
 ### To be updated

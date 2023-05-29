@@ -26,13 +26,11 @@ import {
 } from "../utils/helpers";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import {
-  QueryClient,
-  QueryClientProvider,
-  useMutation,
-} from "@tanstack/react-query";
 
-function request(data, setOutput, getAnswer) {
+import YangLine from "../components/YangLine";
+import YinLine from "../components/YinLine";
+
+function request(data, setOutput) {
   // calculate the gua & yao
   const xiaGua = convertToGua(data["xia"] % 8);
   const shangGua = convertToGua(data["shang"] % 8);
@@ -47,7 +45,6 @@ function request(data, setOutput, getAnswer) {
   const finalResult = answers(`${gua}${yao}`); // multiple results
 
   setOutput(finalResult); // (321 215 686 test for failure case)
-  getAnswer(`请解释易经${gua}卦`); // GPT request for acquring answer
 }
 
 const NumberInput = ({ name, label, errors, register }) => (
@@ -68,37 +65,9 @@ const NumberInput = ({ name, label, errors, register }) => (
   </FormControl>
 );
 
-const queryClient = new QueryClient();
-
 function HomeComponent() {
   const [output, setOutput] = useState({});
   const [loading, setLoading] = useState(false);
-
-  const queryMutation = useMutation({
-    mutationFn: async (text) => {
-      if (text) {
-        const response = await fetch(`/api/gpt?words=${text}`); // query eg: "generate a javascript closure code example"
-
-        if (!response.ok) throw new Error("not ok ..");
-
-        const json = await response.json();
-
-        return json?.data?.choices[0]?.text;
-      } else {
-        return "No request detected yet ..";
-      }
-    },
-    onSuccess: () => {
-      // refetch the latest data
-      queryClient.invalidateQueries({ queryKey: ["answer"] });
-    },
-  });
-
-  const getAnswer = (value) => {
-    queryMutation.mutate(value, {
-      onSuccess: (data) => data,
-    });
-  };
 
   const {
     register,
@@ -106,6 +75,15 @@ function HomeComponent() {
     handleSubmit,
   } = useForm();
   // Concept: enter 3 3-digits numbers, make calculation, get result
+
+  const ImageIcon = ({ sixYao }) =>
+    sixYao.length === 6 ? (
+      <Box pt={6}>
+        {sixYao.map((sy) =>
+          sy?.includes("九") ? <YangLine key={sy} /> : <YinLine key={sy} />
+        )}
+      </Box>
+    ) : null;
 
   return (
     <>
@@ -125,7 +103,7 @@ function HomeComponent() {
               try {
                 setLoading(true);
                 setTimeout(() => {
-                  request(data, setOutput, getAnswer);
+                  request(data, setOutput);
                   setLoading(false);
                 }, 1000); // get result after 1 second ~~
               } catch (error) {
@@ -187,9 +165,10 @@ function HomeComponent() {
                       {output.meaning}
                     </Text>
                   </Heading>
+                  <ImageIcon sixYao={allYaos(output.gua)} />
                   <Box py={4}>
                     <Text fontSize="lg">
-                      <strong>卦名</strong>: {output.gua}
+                      <strong>卦名</strong>: <b>{output.gua}</b>
                     </Text>
                     <Text fontSize="lg">
                       <strong>爻位</strong>: {output.yao}
@@ -254,20 +233,7 @@ function HomeComponent() {
                     </>
                   )}
                   <Divider />
-                  <>
-                    {queryMutation?.isLoading && <p>Content generating ..</p>}
-                    {queryMutation?.isError && (
-                      <p>Error occurred during generating new content ..</p>
-                    )}
-                    {!!queryMutation?.data && (
-                      <>
-                        <Heading as="h3" size="sm" pt={8} pb={4}>
-                          AI智能回答
-                        </Heading>
-                        <Box>{queryMutation?.data}</Box>
-                      </>
-                    )}
-                  </>
+                  {/* @TODO Will find a free solution for AI generated contents */}
                 </Box>
               )}
             </Box>
@@ -280,9 +246,5 @@ function HomeComponent() {
 }
 
 export default function Home() {
-  return (
-    <QueryClientProvider client={queryClient}>
-      <HomeComponent />
-    </QueryClientProvider>
-  );
+  return <HomeComponent />;
 }

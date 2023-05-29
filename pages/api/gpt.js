@@ -13,8 +13,12 @@ export default async function handler(req, res) {
     const response = await openai.createCompletion({
       model: OAModel,
       prompt: req.query.words,
-      temperature: 0.8,
+      temperature: 0,
       max_tokens: OAMaxTokens,
+      top_p: 1,
+      frequency_penalty: 0.0,
+      presence_penalty: 0.0,
+      stop: ["\n"],
     });
 
     if (response) {
