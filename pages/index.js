@@ -32,13 +32,13 @@ import YinLine from "../components/YinLine";
 
 function request(data, setOutput) {
   // calculate the gua & yao
-  const xiaGua = convertToGua(data["xia"] % 8);
-  const shangGua = convertToGua(data["shang"] % 8);
-  const theYao = convertToYao(data["yao"] % 6);
+  const xiaGua = convertToGua(parseInt(data["xia"]) % 8);
+  const shangGua = convertToGua(parseInt(data["shang"]) % 8);
+  const theYao = convertToYao(parseInt(data["yao"]) % 6);
 
   // convert gua & yao to one of 64 varients
   const gua = allGuas(`${shangGua}-${xiaGua}`);
-  const yao = allYaos(gua)?.[theYao - 1];
+  const yao = allYaos(gua)?.[theYao === 0 || theYao === 6 ? 5 : theYao - 1];
 
   // release final result answer
   // const finalResult = answer(`${gua}${yao}`); // single result
@@ -79,9 +79,11 @@ function HomeComponent() {
   const ImageIcon = ({ sixYao }) =>
     sixYao.length === 6 ? (
       <Box pt={6}>
-        {sixYao.map((sy) =>
-          sy?.includes("九") ? <YangLine key={sy} /> : <YinLine key={sy} />
-        )}
+        {sixYao.map((sy) => {
+          if (sy?.includes("九")) return <YangLine key={sy} />;
+          if (sy?.includes("六")) return <YinLine key={sy} />;
+          return null;
+        })}
       </Box>
     ) : null;
 
